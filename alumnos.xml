@@ -1,0 +1,100 @@
+<!-- 
+LOS DOCUMENTOS XML TIENEN 2 PARTES DIFERENCIADAS
+
+1º PARTE: PROLOGO
+- todos los datos necesarios para identificar este documento como XML
+- Meter todas las referencias a otros archivos que pudieran ser necesarios.
+
+2ª PARTE: XML
+
+- ELEMENTOS -> <alumnos>METEMOS INFORMACION</alumnos>
+                <botella>LIQUIDO</botella>
+
+- ATRIBUTOS -> <botella etiqueta="cocacola">LIQUIDO</botella>
+- COMENTARIOS -> textos extra a la informacion que nos dan pautas de uso o desarrollo
+- EXTRAS -> Esto lo vemos más adelante.
+
+-->
+
+<?XML version="1.0" encoding="UTF-8"?>
+
+<!-- 
+- nombre
+- apellidOs
+- email
+- DNI (posible atributo)
+- Curso
+- notaMedia
+-->
+<academia>
+    <alumnos>
+        <alumno dni="77456987P">
+            <nombre>Juan</nombre>
+            <apellidos>García López</apellidos>
+            <email>juanlopez@email.com</email>
+            <curso>S.G. Información</curso>
+            <notaMedia>9.25</notaMedia>
+        </alumno>
+
+        <alumno dni="9887451P">
+            <nombre>Maria de los Angeles</nombre>
+            <apellidOs>Martinez Salmeron</apellidos>
+            <email>madelalquian@email.com</email>
+            <curso>S.G. Información</curso>
+            <notaMedia>9.65</notaMedia>
+        </alumno>
+    </alumnos>
+
+    <profesores>
+        <profesor dni="9887451P">
+            <nombre>Chemo</nombre>
+            <apellidOs>Docente</apellidos>
+            <email>chemod@email.com</email>
+            <asignatura>Tecnologia</curso>
+        </profesor>
+    </profesores>
+</academia>
+
+
+<casa></casa>
+<dormitorio></dormitorio>
+<armario></armario>
+<mesita></mesita>
+<vater></vater>
+<aseo></aseo>
+<despensa/>
+
+<casa>
+    <dormitorio>
+        <armario></armario>
+        <mesita></mesita>
+    </dormitorio>
+    <aseo>
+        <vater></vater>
+    </aseo>
+    <despensa/>
+</casa>
+
+<casa>
+    <dormitorio>
+        <armario></armario>
+        <mesita></mesita>
+        <aseo>
+            <vater></vater>
+        </aseo>
+        <despensa/>
+    </dormitorio>
+</casa>
+
+
+<casa>
+    <dormitorio>
+        <armario></armario>
+        <mesita></mesita>
+        <aseo>
+            <vater></vater>
+        
+        <despensa/>
+    </dormitorio>
+    </aseo>
+</casa>
