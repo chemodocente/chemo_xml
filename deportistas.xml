@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<deportistas>
+    <deportista estado="activo">
+    <!--Club de Futbol Albolote - Granada-->
+        <nombre>Juan Perez</nombre>
+        <deporte>Futbol</deporte>
+        <pais>España</pais>
+        <edad>23</edad>
+        <medallas>
+            <oro>1</oro>
+            <plata>2</plata>
+            <bronce/>
+        </medallas>
+    </deportista>
+
+    <deportista estado="activo">
+    <!--Club de Gimnasia Ritmica de Bogota - Bogota -->
+        <nombre>Beatriz Juarez</nombre>
+        <deporte>Gimnasia</deporte>
+        <pais>Colombia</pais>
+        <edad>18</edad>
+        <medallas>
+            <oro>3</oro>
+            <plata/>
+            <bronce>2</bronce>
+        </medallas>
+    </deportista>
+
+    <deportista estado="retirado">
+    <!-- Deportivo de Espadas C.E. - San Luis -->
+        <nombre>Lola Nuñez</nombre>
+        <deporte>Esgrima</deporte>
+        <pais>Panama</pais>
+        <edad>34</edad>
+        <medallas>
+            <oro/>
+            <plata/>
+            <bronce>4</bronce>
+        </medallas>
+    </deportista>
+</deportistas>
