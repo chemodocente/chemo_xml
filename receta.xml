@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE recetas [
+
+<!ELEMENT recetas (receta+)>
+<!ELEMENT receta (nombre, ingredientes, preparacion)>
+<!ATTLIST receta dificultad CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ELEMENT preparacion (paso*)>
+<!ELEMENT paso (#PCDATA)>
+
+]>
+
+
 <recetas>
     <!-- Esta receta me la paso Doña Mari el 24/07/1998 en Barcelona -->
     <receta dificultad="facil">
-        <nombre>Tortilla Francesa</nombre>
+        <nombre>Tostas de Pan</nombre>
         <ingredientes>
-            <ingrediente>Huevos</ingrediente>
-            <ingrediente>Sal</ingrediente>
-            <ingrediente>Aceite de Oliva</ingrediente>
+            <ingrediente>Pan</ingrediente>
         </ingredientes>
         <preparacion>
             <paso>Calentar sarten y volcar ingrendientes</paso>
@@ -27,6 +39,15 @@
         <preparacion>
             <paso>Trituramos todo en una picadora</paso>
             <paso>Colamos y servimos con jamon y huevo</paso>
+        </preparacion>
+    </receta>
+
+        <receta dificultad="facil">
+        <nombre>Manzana a bocados</nombre>
+        <ingredientes>
+            <ingrediente>Manzana</ingrediente>
+        </ingredientes>
+        <preparacion>
         </preparacion>
     </receta>
 </recetas>
