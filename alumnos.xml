@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Hola esto es un comentario -->
+
+
 <!-- 
 LOS DOCUMENTOS XML TIENEN 2 PARTES DIFERENCIADAS
 
@@ -16,7 +21,6 @@ LOS DOCUMENTOS XML TIENEN 2 PARTES DIFERENCIADAS
 
 -->
 
-<?XML version="1.0" encoding="UTF-8"?>
 
 <!-- 
 - nombre
