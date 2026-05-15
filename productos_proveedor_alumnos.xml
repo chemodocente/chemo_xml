@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- ASI LO VE MARIAN -->
+<proveedoresProductos>
+    <proveedor id_proveedor="">
+        <nombre></nombre>
+        <telefono></telefono>
+        <ciudad></ciudad>
+        <email></email>
+        <productos>
+            <producto id_producto="" codigo="">
+                <nombre></nombre>
+                <categoria></categoria>
+                <precio></precio>
+                <stock></stock>        
+            </producto>
+            <producto id_producto="" codigo="">
+                <nombre></nombre>
+                <categoria></categoria>
+                <precio></precio>
+                <stock></stock>        
+            </producto>            
+            <producto id_producto="" codigo="">
+                <nombre></nombre>
+                <categoria></categoria>
+                <precio></precio>
+                <stock></stock>        
+            </producto>            
+            <producto id_producto="" codigo="">
+                <nombre></nombre>
+                <categoria></categoria>
+                <precio></precio>
+                <stock></stock>        
+            </producto>
+        </productos>
+    </proveedor>    
+    <proveedor id_proveedor="">
+        <nombre></nombre>
+        <telefono></telefono>
+        <ciudad></ciudad>
+        <email></email>
+        <productos>
+            <producto id_producto="" codigo="">
+                <nombre></nombre>
+                <categoria></categoria>
+                <precio></precio>
+                <stock></stock>        
+            </producto>
+            <producto id_producto="" codigo="">
+                <nombre></nombre>
+                <categoria></categoria>
+                <precio></precio>
+                <stock></stock>        
+            </producto>            
+            <producto id_producto="" codigo="">
+                <nombre></nombre>
+                <categoria></categoria>
+                <precio></precio>
+                <stock></stock>        
+            </producto>            
+            <producto id_producto="" codigo="">
+                <nombre></nombre>
+                <categoria></categoria>
+                <precio></precio>
+                <stock></stock>        
+            </producto>
+        </productos>
+    </proveedor>  
+</proveedoresProductos>
+
+<!-- ASI LO VE ALEJANDRO -->
+<productos>
+  <producto id_producto="1" codigo="">
+    <nombre></nombre>
+    <categoria></categoria>
+    <precio></precio>
+    <stock></stock>
+    <proveedor>
+      <id_proveedor></id_proveedor>
+      <nombre></nombre>
+      <telefono></telefono>
+      <ciudad></ciudad>
+      <email></email>
+    </proveedor>
+  </producto>
+    <producto id_producto="2" codigo="">
+    <nombre></nombre>
+    <categoria></categoria>
+    <precio></precio>
+    <stock></stock>
+    <proveedor>
+      <id_proveedor></id_proveedor>
+      <nombre></nombre>
+      <telefono></telefono>
+      <ciudad></ciudad>
+      <email></email>
+    </proveedor>
+  </producto>
+    <producto id_producto="3" codigo="">
+    <nombre></nombre>
+    <categoria></categoria>
+    <precio></precio>
+    <stock></stock>
+    <proveedor>
+      <id_proveedor></id_proveedor>
+      <nombre></nombre>
+      <telefono></telefono>
+      <ciudad></ciudad>
+      <email></email>
+    </proveedor>
+  </producto>
+    <producto id_producto="" codigo="">
+    <nombre></nombre>
+    <categoria></categoria>
+    <precio></precio>
+    <stock></stock>
+    <proveedor>
+      <id_proveedor></id_proveedor>
+      <nombre></nombre>
+      <telefono></telefono>
+      <ciudad></ciudad>
+      <email></email>
+    </proveedor>
+  </producto>
+</productos>
+
+<!-- ASI LO VE MªANGELES-->
+<productos_proveedores>
+    <producto_proveedor>
+        <id_producto></id_producto>
+            <codigo></codigo>
+            <nombre></nombre>
+            <categoria></categoria>
+            <precio></precio>
+            <stock></stock>
+        <id_proveedor></id_proveedor>
+            <nombre></nombre>
+            <telefono></telefono>
+            <ciudad></ciudad>
+            <email></email>
+
+    </producto_proveedor>
+</productos_proveedores>

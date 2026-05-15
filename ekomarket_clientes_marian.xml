@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--Necesitamos sacar todos los clientes cuyo teléfono acabe en 9-->
+
+<!DOCTYPE clientes [
+<!ELEMENT clientes (cliente*)>
+<!ELEMENT cliente (nif, nombre, telefono, ciudad, email, fecha_alta)>
+<!ATTLIST cliente id CDATA #REQUIRED>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT fecha_alta (#PCDATA)>
+
+]>
+
+<!-- 
+Usamos id como atributo de cliente para identificar de manera inequivoca al ser Primary KEY
+El resto de datos no necesitan estructura
+BUEN DESARROLLO!!!
+-->
+
+<!-- 
+Hemos utilizado esta estructura debido a que, al realizar la consulta
+en la tabla correspondiente, había nombres coincidentes, por lo que, 
+hemos considerado importante detallar los demás datos 
+que pueden individuar correctamente a los clientes 
+requeridos en el ejercicio.
+-->
+
+<clientes>
+    <cliente id="108">
+        <nif>50000007F</nif>
+        <nombre>Diego Moreno Vega</nombre>
+        <telefono>671000189</telefono>
+        <ciudad>Córdoba</ciudad>
+        <email>diego.moreno108@mail.es</email>
+        <fecha_alta></fecha_alta>
+    </cliente>
+
+    <cliente  id="118">
+        <nif>50000017V</nif>
+        <nombre>Adrián Campos Jiménez</nombre>
+        <telefono>671000459</telefono>
+        <ciudad>Córdoba</ciudad>
+        <email>adrian.campos118@mail.es</email>
+        <fecha_alta></fecha_alta>
+    </cliente>
+
+    <cliente id="128">
+        <nif>50000027G</nif>
+        <nombre>Diego Moreno Vega</nombre>
+        <telefono>671000729</telefono>
+        <ciudad>Córdoba</ciudad>
+        <email>diego.moreno128@mail.es</email>
+        <fecha_alta>2011-12-12</fecha_alta>
+    </cliente>
+
+    <cliente id="138">
+        <nif>50000037Z</nif>
+        <nombre>Adrián Campos Jiménez</nombre>
+        <telefono>671000999</telefono>
+        <ciudad>Córdoba</ciudad>
+        <email>adrian.campos138@mail.es</email>
+        <fecha_alta></fecha_alta>
+    </cliente>
+</clientes>
