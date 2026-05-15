@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE deportistas [
+    <!ELEMENT deportistas (deportista*)>
+    <!ELEMENT deportista (nombre, deporte, pais, edad, medallas, sancionado?)>
+    <!ATTLIST deportista estado CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT deporte (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+    <!ELEMENT medallas (oro, plata, bronce)>
+    <!ELEMENT oro (#PCDATA)>
+    <!ELEMENT plata (#PCDATA)>
+    <!ELEMENT bronce (#PCDATA)>
+    <!ELEMENT sancionado EMPTY>
+    <!-- Información acerca del club donde inició su carrera-->
+
+]>
+
+<deportistas>
+    <deportista estado="activo">
+        <nombre>Carlos Alcaraz</nombre>
+        <deporte>tenis</deporte>
+        <pais>España</pais>
+        <edad>23</edad>
+        <medallas>
+            <oro>5</oro>
+            <plata>10</plata>
+            <bronce/>
+        </medallas>
+        <sancionado/>
+    <!-- Este deportista empezó en el Club de Tenis de Los Alcázares -->
+    </deportista>
+        <deportista estado="activo">
+        <nombre>Carlo Ancelotti</nombre>
+        <deporte>fútbol</deporte>
+        <pais>Italia</pais>
+        <edad>68</edad>
+        <medallas>
+            <oro>19</oro>
+            <plata>10</plata>
+            <bronce>3</bronce>
+        </medallas>
+        <sancionado></sancionado>
+
+    <!-- Este deportista empezó en el AC Milan -->
+    </deportista>
+        <deportista estado="retirado">
+        <nombre>Sebastian Coe</nombre>
+        <deporte>atletismo</deporte>
+        <pais>Reino Unido</pais>
+        <edad>62</edad>
+        <medallas>
+            <oro>10</oro>
+            <plata>36</plata>
+            <bronce/>
+        </medallas>        
+    <!-- Este deportista empezó su andadura en el Club de Atletismo de Bollullos Par del Condado -->
+    </deportista>
+</deportistas>

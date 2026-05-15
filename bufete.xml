@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Empresas_Clientes> 
+    <cliente cif="12342345234" estado="activo">
+        <nombre_empresa>Tecnologías Rivera S.L.</nombre_empresa>
+        <persona_contacto>
+            <nombre>Carlos Rivera</nombre>
+            <cargo>Director</cargo>
+            <telefono >600123456</telefono>
+            <correo >c.rivera@tecrivera.com</correo>
+        </persona_contacto>
+        <direccion>
+            <calle>Avenida de la Constitución 25</calle>
+            <ciudad>Sevilla</ciudad>
+            <provincia>Sevilla</provincia>
+            <codigo_postal>40001</codigo_postal>
+            <pais>España</pais>
+        </direccion>
+        <clientetipo modojuridico="Sociedad Limitada">Sector Tecnologico</clientetipo>
+        <fecha_alta >12/03/2024</fecha_alta>
+    </cliente>
+
+
+<cliente id="1" >
+        <empresa cif="B12345678">Tecnologías Rivera S.L.</empresa>
+        <contacto > Carlos Rivera</contacto>
+            <cargo>Director</cargo>
+        
+        <telefono >600123456</telefono>
+        <correo >c.rivera@tecrivera.com</correo>
+        
+        <direccion>
+            <calle>Avenida de la Constitución 25</calle>
+            <ciudad>Sevilla</ciudad>
+            <provincia>Sevilla</provincia>
+            <codigo_postal>40001</codigo_postal>
+            <pais>España</pais>
+        </direccion>
+        <clientetipo>Sector Tecnologico</clientetipo>
+        <fecha_alta >12/03/2024</fecha_alta>
+    </cliente>
+
+    <cliente id="2">
+        <empresa cif="12345678Z">Consultoría Martín</empresa>
+        <contacto >Laura Martín</contacto>
+            <cargo>Directora</cargo>
+
+        <telefono >954456789</telefono>
+        <correo >info@consultoriamartin.es</correo>
+
+
+        <direccion>
+            <calle>Calle Real 18</calle>
+            <ciudad>Málaga</ciudad>
+            <provincia>Málaga</provincia>
+            <codigo_postal>29002</codigo_postal>
+            <pais>España</pais>
+        </direccion>
+        <cliente tipo="Sector Administativo"></cliente>
+
+        <fecha_alta>08/01/2025</fecha_alta>
+    </cliente>
+
+
+
+
+<clientes>
+  <cliente>
+    <nombre>IberSoluciones</nombre>
+    <cif>B12345678</cif>
+    <contacto>María Pérez</contacto>
+  </cliente>
+</clientes>
+
+<cliente></cliente>
+<fecha_alta></fecha_alta>
+
+</Empresas_Clientes>

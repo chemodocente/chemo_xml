@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+LO PRIMERO ES QUE LOS XML TIENE 2 PARTES
+
+1º PARTE ->PROLOGO
+Presentamos el tipo de archivo
+Definifos documento
+Enlazamos Archivos externos
+
+2ª PARTE - CODIGO XML como tal
+-->
+
+
+
+<noticias>
+    <noticia id="A001">
+        <titulo>Alejandro ha aprobado el examen</titulo>
+        <autor>Chemo</autor>
+        <fecha>14/05/2026</fecha>
+        <!-- Marian por favor revisa esto porque no se si usarlo como Atributo, mira el sistema de datos en Heidi y dime como lo ves que ¿hago? -->
+        <categoria>Sociedad</categoria>
+        <contenido>Pudiendo mejorar el ejercicio Aleajndro solvento su examen de manera justa... hay que estudiar.</contenido>
+        <etiquetas>
+            <etiqueta>Repositorio</etiqueta>
+            <etiqueta>Jerarquia</etiqueta>
+            <etiqueta>Taxonomia</etiqueta>
+            <etiqueta>GitHub</etiqueta>
+        </etiquetas>
+ <revisado/>       
+    </noticia>
+    <!-- He revisado la noticia y me alegro mucho por Alejandro! Animo! -->
+
+
+
+    <noticia id="A002">
+        <titulo>El almeria a punto de asceder</titulo>
+        <autor>Alejandro</autor>
+        <fecha>25/05/2026</fecha>
+        <categoria>Deportes</categoria>
+        <contenido>UDA almeria vence a las Palmas</contenido>
+        <temas>
+            <aqui_puedo_poner_lo_que_me_salga>Futbol</aqui_puedo_poner_lo_que_me_salga>
+            <etiqueta>Liga Hypermotion</etiqueta>
+            <etiqueta>Cristiano Ronaldo</etiqueta>
+        </temas>
+    </noticia>
+
+
+    <noticia id="">
+        <titulo></titulo>
+        <autor></autor>
+        <fecha></fecha>
+        <categoria></categoria>
+        <contenido></contenido>
+        <etiquetas>
+            <etiqueta></etiqueta>
+            <etiqueta></etiqueta>
+            <etiqueta></etiqueta>
+            <etiqueta></etiqueta>
+        </etiquetas>
+    </noticia>
+</noticias>
+
+
+
+
+<!-- 
+NOTAS DEL TRABAJO...
+
+Meto esto como comentario porque hemos visto como funciona HTML con los elementos abreviados:
+<img href="foto.jpg" />
+<h1>TITULO DE LA FOTO </h1>
+-->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Aprendemos DTD Document Type Definition -->
+<!DOCTYPE alumnos [
+    <!ELEMENT alumnos (alumno*)>
+    <!ELEMENT alumno (nombre, apellido, curso, (nota_media|nota_final))>
+    <!ATTLIST alumno expediente CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT curso (#PCDATA)>
+    <!ELEMENT nota_media (#PCDATA)>
+    <!ELEMENT nota_final (#PCDATA)>
+
+]>
+
+<!-- MES DE AGOSTO -->
+
+<alumnos>
+    <alumno expediente="A001">
+        <nombre>Juan</nombre>
+        <apellido>Rodriguez</apellido>
+        <curso>S.G. Informacion</curso>
+        <nota_media>8</nota_media>
+
+    </alumno>
+    <alumno expediente="A002">
+        <nombre>Beatriz</nombre>
+        <apellido>Saavedra</apellido>
+        <curso>Bases de DAtos</curso>
+        <nota_final>8</nota_final>
+
+    </alumno>
+
+</alumnos>
