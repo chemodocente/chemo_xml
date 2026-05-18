@@ -1,0 +1,47 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="recetas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="receta" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+
+                            <xs:element name="ingredientes">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ingrediente" type="xs:string" minOccurs="1" maxOccurs="15"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            
+                            <xs:element name="preparacion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="paso" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            
+                        </xs:sequence>
+                        <xs:attribute name="dificultad" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
+
+
+
+
+
+
+
+<!-- 
+MINIMO DE OCURRENCIAS   minOccurs
+MAXIMO DE OCURRENCIAS   maxOccurs
+
+
+-->

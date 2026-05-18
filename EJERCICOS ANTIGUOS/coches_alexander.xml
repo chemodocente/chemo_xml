@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE flota SYSTEM "cochesvalidacion.dtd">
+
+<flota>
+
+    <coche id="C001" estado="disponible">
+        
+        <datosGenerales>
+            <marca>"Toyota"</marca>
+            <modelo>Corolla</modelo>
+            <matricula>1234ABC</matricula>
+            <color>Blanco</color>
+        </datosGenerales>
+
+        <detallesTecnicos>
+            <combustible>Gasolina</combustible>
+            <potencia>120 CV</potencia>
+            <puertas>5</puertas>
+            <transmision>Manual</transmision>
+        </detallesTecnicos>
+
+    </coche>
+
+    <coche id="C002" estado="mantenimiento" codigo_interno="azul">
+
+        <datosGenerales>
+            <marca>Ford</marca>
+            <modelo>Focus</modelo>
+            <matricula>5678DEF</matricula>
+            <color>Azul</color>
+        </datosGenerales>
+
+        <detallesTecnicos>
+            <combustible>Diesel</combustible>
+            <potencia>150 CV</potencia>
+            <puertas>5</puertas>
+            <transmision>Automatica</transmision>
+        </detallesTecnicos>
+
+    </coche>
+
+    <coche id="C003" estado="alquilado" codigo_interno="blanco">
+
+        <datosGenerales>
+            <marca>BMW</marca>
+            <modelo>X1</modelo>
+            <matricula>9012GHI</matricula>
+            <color>Negro</color>
+        </datosGenerales>
+
+        <detallesTecnicos>
+            <combustible>Hibrido</combustible>
+            <potencia>180 CV</potencia>
+            <puertas>5</puertas>
+            <transmision>Automatica</transmision>
+        </detallesTecnicos>
+
+    </coche>
+
+</flota>

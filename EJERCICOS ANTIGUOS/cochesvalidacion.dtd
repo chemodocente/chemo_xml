@@ -1,0 +1,24 @@
+    <!ELEMENT flota (coche+)>
+
+    <!ELEMENT coche (datosGenerales, detallesTecnicos)>
+    <!ATTLIST coche
+        id ID #REQUIRED
+        estado (disponible|alquilado|mantenimiento) #REQUIRED 
+        codigo_interno (blanco|azul) #IMPLIED
+    >
+  
+
+    <!ELEMENT datosGenerales (marca, modelo, matricula, color)>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT matricula (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+
+    <!ELEMENT estado (#PCDATA)>
+
+    <!ELEMENT detallesTecnicos (combustible, potencia, puertas, transmision)>
+
+    <!ELEMENT combustible (#PCDATA)>
+    <!ELEMENT potencia (#PCDATA)>
+    <!ELEMENT puertas (#PCDATA)>
+    <!ELEMENT transmision (#PCDATA)>

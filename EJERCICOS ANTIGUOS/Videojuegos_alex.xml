@@ -4,7 +4,7 @@
 <!DOCTYPE videojuegos [
     <!ELEMENT videojuegos (videojuego+)>
 
-    <!ELEMENT videojuego (titulo, plataforma, genero, desarrolladora, fecha_lanzamiento, pegi, precio, estado)>
+    <!ELEMENT videojuego (titulo, plataforma, genero, desarrolladora, fecha_lanzamiento, pegi, (euros|dolares), estado)>
 
     <!ELEMENT titulo (#PCDATA)>
     <!ATTLIST titulo Estado CDATA #REQUIRED > 
@@ -19,7 +19,8 @@
 
     <!ELEMENT fecha_lanzamiento (#PCDATA)>
     <!ELEMENT pegi (#PCDATA)>
-    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT euros (#PCDATA)>
+    <!ELEMENT dolares (#PCDATA)>
     <!ELEMENT estado (#PCDATA)>
 ]>
 
@@ -36,7 +37,7 @@
         </desarrolladora>
         <fecha_lanzamiento>2025</fecha_lanzamiento>
         <pegi>3</pegi>
-        <precio>51.99€</precio>
+        <dolares>45</dolares>
         <estado>Agotado</estado>
     </videojuego>
 
@@ -51,7 +52,7 @@
         </desarrolladora>
         <fecha_lanzamiento>2022</fecha_lanzamiento>
         <pegi>12</pegi>
-        <precio>51.99€</precio>
+        <euros>51.99</euros>
         <estado>Disponible</estado>
     </videojuego>
 
@@ -66,7 +67,7 @@
         </desarrolladora>
         <fecha_lanzamiento>2025</fecha_lanzamiento>
         <pegi>7</pegi>
-        <precio>69.99€</precio>
+          <euros>70</euros>
         <estado>Agotado</estado>
     </videojuego>
 

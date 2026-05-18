@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE alumnos SYSTEM "DTD/alumnos.dtd">
+
+<alumnos>
+    <alumno>
+        <nombre>Ana García</nombre>
+        <edad>25</edad>
+        <email>ana@email.com</email>
+    </alumno>
+
+    <alumno>
+        <nombre>Pepe Torres</nombre>
+        <edad>25</edad>
+        <email>petower@email.com</email>
+    </alumno>
+
+    <alumno>
+        <nombre>Lucía Osorio</nombre>
+        <edad>25</edad>
+        <email>lorio@email.com</email>
+    </alumno>
+</alumnos>

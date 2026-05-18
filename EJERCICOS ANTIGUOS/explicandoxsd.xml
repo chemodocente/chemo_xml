@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- XML GUARDA LOS DATOS Y XSD PONE LAS NORMAS -->
+
+<?xml-model href="alumnos.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+
+<alumno>
+    <nombre>Ana García</nombre>
+    <edad>24.99</edad>
+    <email>ana@email.com</email>
+</alumno>
