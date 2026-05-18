@@ -1,0 +1,42 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="videojuegos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="videojuego" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo">
+                                <xs:complexType>
+                                   <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="Estado" type="xs:string" use="required"/>
+                                        </xs:extension>
+                                   </xs:simpleContent> 
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="plataforma" type="xs:string"/>
+                            <xs:element name="genero" type="xs:string"/>
+
+                            <xs:element name="desarrolladora">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="email" type="xs:string"/>
+                                        <xs:element name="web" type="xs:string"/>                                        
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="fecha_lanzamiento" type="xs:date"/>      
+                            <xs:element name="pegi" type="xs:integer"/>  
+                            <xs:element name="dolares" type="xs:decimal" minOccurs="0" maxOccurs="1"/>      
+                            <xs:element name="euros" type="xs:decimal"  minOccurs="0" maxOccurs="1"/>                                                                                          
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

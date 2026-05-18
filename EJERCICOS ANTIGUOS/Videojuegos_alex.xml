@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
+<!--
 <!DOCTYPE videojuegos [
     <!ELEMENT videojuegos (videojuego+)>
 
@@ -23,6 +23,10 @@
     <!ELEMENT dolares (#PCDATA)>
     <!ELEMENT estado (#PCDATA)>
 ]>
+-->
+
+<?xml-model href="videojuegos.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
 
 <videojuegos>
 
@@ -38,11 +42,10 @@
         <fecha_lanzamiento>2025</fecha_lanzamiento>
         <pegi>3</pegi>
         <dolares>45</dolares>
-        <estado>Agotado</estado>
     </videojuego>
 
     <videojuego>
-        <titulo Estado="agotado">Gran Turismo 7</titulo>
+        <titulo Estado="disponible">Gran Turismo 7</titulo>
         <plataforma>PlayStation 5</plataforma>
         <genero>Carreras</genero>
         <desarrolladora>
@@ -50,10 +53,9 @@
             <email>support@playstation.com</email>
             <web>https://www.playstation.com</web>
         </desarrolladora>
-        <fecha_lanzamiento>2022</fecha_lanzamiento>
+        <fecha_lanzamiento>2022-08-28</fecha_lanzamiento>
         <pegi>12</pegi>
         <euros>51.99</euros>
-        <estado>Disponible</estado>
     </videojuego>
 
     <videojuego>
@@ -68,7 +70,6 @@
         <fecha_lanzamiento>2025</fecha_lanzamiento>
         <pegi>7</pegi>
           <euros>70</euros>
-        <estado>Agotado</estado>
     </videojuego>
 
 </videojuegos>
