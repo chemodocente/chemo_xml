@@ -1,0 +1,8 @@
+<!ELEMENT videoclub (pelicula+)>
+<!ELEMENT pelicula (titulo, genero, ano, director)>
+<!ATTLIST pelicula id CDATA #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT ano (#PCDATA)>
+<!ELEMENT director (#PCDATA)>

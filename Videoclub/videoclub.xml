@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- 
+Como no puedo hacer dos validaciones, 
+he hecho el DTD pero lo dejo desactivado
+Si quiero activarlo debo descomentar la siguiente linea:
+<!DOCTYPE videoclub SYSTEM "videoclub.dtd">
+-->
+
+<!-- Si activo el DTD debo COMENTAR la linea de abajo -->
+<?xml-model href="videoclub.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+
+<videoclub>
+    <pelicula id="1">
+        <titulo>Los goonies</titulo>
+        <genero>Aventuras</genero>
+        <ano>1982</ano>
+        <director>Paquito Perez</director>
+    </pelicula>
+
+    <pelicula id="2">
+        <titulo>Star Wars</titulo>
+        <genero>Futurista</genero>
+        <ano>1977</ano>
+        <director>George Lucas</director>
+    </pelicula>
+
+        <pelicula id="3">
+        <titulo>Mad Max</titulo>
+        <genero>Apocaliptico</genero>
+        <ano>1984</ano>
+        <director>Raul de la Serna</director>
+    </pelicula>
+</videoclub>
