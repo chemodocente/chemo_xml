@@ -1,0 +1,30 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="biblioteca">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="libro" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="autor" type="xs:string"/>
+                            <xs:element name="anio" type="xs:integer"/>
+                            <!-- Aqui estaba el error, tenemos puesto precio como elemento simple. Se cambia a compuesto -->
+                            <xs:element name="precio">
+                                <xs:complexType>
+                                    <xs:simpleContent >
+                                        <xs:extension base="xs:decimal">
+                                            <xs:attribute name="estado" type="xs:string" use="optional"></xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                    
+                                </xs:complexType>
+                            </xs:element>  
+
+                        </xs:sequence>
+                        <xs:attribute name="codigo" type="xs:integer" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

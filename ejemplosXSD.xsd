@@ -1,0 +1,74 @@
+<!-- 
+ 
+<cliente>
+    <nombre></nombre>
+    <apellido></apellido>
+    <email></email>
+    <antiguedad></antiguedad>
+</cliente>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cliente">
+        <xs:complexType>
+           <xs:sequence>
+                <xs:element name="nombre" type="xs:string"/>
+                <xs:element name="apellido" type="xs:string"/>
+                <xs:element name="email" type="xs:string"/>
+                <xs:element name="antiguedad" type="xs:integer"/>
+           </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+-->
+
+
+<!-- 
+
+<biblioteca>
+    <libro codigo="0001">
+        <titulo>El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <anio>1605</anio>
+        <precio estado="oferta">15.99</precio>
+    </libro>
+    <libro codigo="0002">
+        <titulo>El arbol de la ciencia</titulo>
+        <autor>Pío Baroja</autor>
+        <anio>1911</anio>
+        <precio estado="agotado">8.75</precio>
+    </libro>
+</biblioteca>
+
+-->
+
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="biblioteca">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="libro" minOccurs="6" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="autor" type="xs:string"/>
+                            <xs:element name="anio" type="xs:integer"/>
+                            <!-- Aqui estaba el error, tenemos puesto precio como elemento simple. Se cambia a compuesto -->
+                            <xs:element name="precio">
+                                <xs:complexType>
+                                    <xs:simpleContent >
+                                        <xs:extension base="xs:decimal">
+                                            <xs:attribute name="estado" type="xs:string" use="optional"></xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                    
+                                </xs:complexType>
+                            </xs:element>  
+
+                        </xs:sequence>
+                        <xs:attribute name="codigo" type="xs:ID" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

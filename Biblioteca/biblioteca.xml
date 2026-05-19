@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Este es el conector entre los dos archivos -->
+<?xml-model href="biblioteca.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+
+<biblioteca>
+    <libro codigo="0001">
+        <titulo>El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <anio>1605</anio>
+        <precio estado="oferta">15.99</precio>
+    </libro>
+    <libro codigo="0002">
+        <titulo>El arbol de la ciencia</titulo>
+        <autor>Pío Baroja</autor>
+        <anio>1911</anio>
+        <precio estado="agotado">8.75</precio>
+    </libro>
+</biblioteca>
