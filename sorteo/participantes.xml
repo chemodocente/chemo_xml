@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Tareas a realizar
+- Validacion mediante Schema
+- Transformar mediante XSLT a WEB para ver el listado, con tabla. 
+-->
+
+
+
+<sorteo>
+  <participante>
+    <nombre>Alejandro</nombre>
+    <apellidos>García Martínez</apellidos>
+    <email>alejandro.garcia@example.com</email>
+    <edad>28</edad>
+  </participante>
+  <participante>
+    <nombre>María</nombre>
+    <apellidos>Rodríguez López</apellidos>
+    <email>maria.rodriguez@example.com</email>
+    <edad>34</edad>
+  </participante>
+  <participante>
+    <nombre>Carlos</nombre>
+    <apellidos>Fernández Gómez</apellidos>
+    <email>carlos.fernandez@example.com</email>
+    <edad>41</edad>
+  </participante>
+  <participante>
+    <nombre>Ana</nombre>
+    <apellidos>Sánchez Pérez</apellidos>
+    <email>ana.sanchez@example.com</email>
+    <edad>22</edad>
+  </participante>
+  <participante>
+    <nombre>Luis</nombre>
+    <apellidos>González Ruiz</apellidos>
+    <email>luis.gonzalez@example.com</email>
+    <edad>50</edad>
+  </participante>
+  <participante>
+    <nombre>Laura</nombre>
+    <apellidos>Díaz Jiménez</apellidos>
+    <email>laura.diaz@example.com</email>
+    <edad>31</edad>
+  </participante>
+  <participante>
+    <nombre>jorge</nombre>
+    <apellidos>Álvarez Muñoz</apellidos>
+    <email>jorge.alvarez@example.com</email>
+    <edad>19</edad>
+  </participante>
+  <participante>
+    <nombre>Elena</nombre>
+    <apellidos>Moreno Romero</apellidos>
+    <email>elena.moreno@example.com</email>
+    <edad>26</edad>
+  </participante>
+  <participante>
+    <nombre>David</nombre>
+    <apellidos>Alonso Gutiérrez</apellidos>
+    <email>david.alonso@example.com</email>
+    <edad>45</edad>
+  </participante>
+  <participante>
+    <nombre>Marta</nombre>
+    <apellidos>Rubio Navarro</apellidos>
+    <email>marta.rubio@example.com</email>
+    <edad>37</edad>
+  </participante>
+  <participante>
+    <nombre>javier</nombre>
+    <apellidos>Domínguez Serrano</apellidos>
+    <email>javier.dominguez@example.com</email>
+    <edad>33</edad>
+  </participante>
+  <participante>
+    <nombre>Cristina</nombre>
+    <apellidos>Ramos Ramos</apellidos>
+    <email>cristina.ramos@example.com</email>
+    <edad>29</edad>
+  </participante>
+  <participante>
+    <nombre>Sergio</nombre>
+    <apellidos>Blanco Sanz</apellidos>
+    <email>sergio.blanco@example.com</email>
+    <edad>24</edad>
+  </participante>
+  <participante>
+    <nombre>Paula</nombre>
+    <apellidos>Suárez Castro</apellidos>
+    <email>paula.suarez@example.com</email>
+    <edad>55</edad>
+  </participante>
+  <participante>
+    <nombre>Diego</nombre>
+    <apellidos>Ortega Gil</apellidos>
+    <email>diego.ortega@example.com</email>
+    <edad>42</edad>
+  </participante>
+  <participante>
+    <nombre>Sara</nombre>
+    <apellidos>Rubio Flores</apellidos>
+    <email>sara.rubio@example.com</email>
+    <edad>21</edad>
+  </participante>
+  <participante>
+    <nombre>Manuel</nombre>
+    <apellidos>Morales Delgado</apellidos>
+    <email>manuel.morales@example.com</email>
+    <edad>38</edad>
+  </participante>
+  <participante>
+    <nombre>Raquel</nombre>
+    <apellidos>Ortiz Marín</apellidos>
+    <email>raquel.ortiz@example.com</email>
+    <edad>47</edad>
+  </participante>
+  <participante>
+    <nombre>Daniel</nombre>
+    <apellidos>Garrido Cruz</apellidos>
+    <email>daniel.garrido@example.com</email>
+    <edad>30</edad>
+  </participante>
+  <participante>
+    <nombre>Lucía</nombre>
+    <apellidos>Torres Reyes</apellidos>
+    <email>lucia.torres@example.com</email>
+    <edad>25</edad>
+  </participante>
+  <participante>
+    <nombre>Ángel</nombre>
+    <apellidos>Calvo Núñez</apellidos>
+    <email>angel.calvo@example.com</email>
+    <edad>61</edad>
+  </participante>
+  <participante>
+    <nombre>Carmen</nombre>
+    <apellidos>Vidal Maldonado</apellidos>
+    <email>carmen.vidal@example.com</email>
+    <edad>53</edad>
+  </participante>
+  <participante>
+    <nombre>Pablo</nombre>
+    <apellidos>Vázquez Campos</apellidos>
+    <email>pablo.vazquez@example.com</email>
+    <edad>27</edad>
+  </participante>
+  <participante>
+    <nombre>Irene</nombre>
+    <apellidos>Vega Fuentes</apellidos>
+    <email>irene.vega@example.com</email>
+    <edad>32</edad>
+  </participante>
+  <participante>
+    <nombre>Francisco</nombre>
+    <apellidos>Rey Carrillo</apellidos>
+    <email>francisco.rey@example.com</email>
+    <edad>44</edad>
+  </participante>
+  <participante>
+    <nombre>Alba</nombre>
+    <apellidos>Ibáñez Cabrera</apellidos>
+    <email>alba.ibanez@example.com</email>
+    <edad>23</edad>
+  </participante>
+  <participante>
+    <nombre>José</nombre>
+    <apellidos>Jiménez Santos</apellidos>
+    <email>jose.jimenez@example.com</email>
+    <edad>49</edad>
+  </participante>
+  <participante>
+    <nombre>Natalia</nombre>
+    <apellidos>Giménez Diez</apellidos>
+    <email>natalia.gimenez@example.com</email>
+    <edad>36</edad>
+  </participante>
+  <participante>
+    <nombre>Adrián</nombre>
+    <apellidos>Lara Pastor</apellidos>
+    <email>adrian.lara@example.com</email>
+    <edad>20</edad>
+  </participante>
+  <participante>
+    <nombre>Eva</nombre>
+    <apellidos>Méndez Sáez</apellidos>
+    <email>eva.mendez@example.com</email>
+    <edad>40</edad>
+  </participante>
+  <participante>
+    <nombre>Rubén</nombre>
+    <apellidos>Chang Solís</apellidos>
+    <email>ruben.chang@example.com</email>
+    <edad>35</edad>
+  </participante>
+  <participante>
+    <nombre>Beatriz</nombre>
+    <apellidos>Herrero Peña</apellidos>
+    <email>beatriz.herrero@example.com</email>
+    <edad>43</edad>
+  </participante>
+  <participante>
+    <nombre>Hugo</nombre>
+    <apellidos>Román Gallardo</apellidos>
+    <email>hugo.roman@example.com</email>
+    <edad>18</edad>
+  </participante>
+  <participante>
+    <nombre>Marina</nombre>
+    <apellidos>Nieto Vargas</apellidos>
+    <email>marina.nieto@example.com</email>
+    <edad>29</edad>
+  </participante>
+  <participante>
+    <nombre>Juan</nombre>
+    <apellidos>Montero Oliver</apellidos>
+    <email>juan.montero@example.com</email>
+    <edad>52</edad>
+  </participante>
+  <participante>
+    <nombre>Nuria</nombre>
+    <apellidos>Cano Quiroga</apellidos>
+    <email>nuria.cano@example.com</email>
+    <edad>31</edad>
+  </participante>
+  <participante>
+    <nombre>Marcos</nombre>
+    <apellidos>Vila Ceballos</apellidos>
+    <email>marcos.vila@example.com</email>
+    <edad>46</edad>
+  </participante>
+  <participante>
+    <nombre>Clara</nombre>
+    <apellidos>Blázquez Crespo</apellidos>
+    <email>clara.blazquez@example.com</email>
+    <edad>24</edad>
+  </participante>
+  <participante>
+    <nombre>Mario</nombre>
+    <apellidos>Guerra Agudo</apellidos>
+    <email>mario.guerra@example.com</email>
+    <edad>39</edad>
+  </participante>
+  <participante>
+    <nombre>Andrea</nombre>
+    <apellidos>Espinosa Sanjuán</apellidos>
+    <email>andrea.espinosa@example.com</email>
+    <edad>27</edad>
+  </participante>
+  <participante>
+    <nombre>Roberto</nombre>
+    <apellidos>Molina Paredes</apellidos>
+    <email>roberto.molina@example.com</email>
+    <edad>48</edad>
+  </participante>
+  <participante>
+    <nombre>Alicia</nombre>
+    <apellidos>Delgado Costa</apellidos>
+    <email>alicia.delgado@example.com</email>
+    <edad>33</edad>
+  </participante>
+  <participante>
+    <nombre>Antonio</nombre>
+    <apellidos>Ríos Asensio</apellidos>
+    <email>antonio.rios@example.com</email>
+    <edad>56</edad>
+  </participante>
+  <participante>
+    <nombre>Sonia</nombre>
+    <apellidos>Arce Benito</apellidos>
+    <email>sonia.arce@example.com</email>
+    <edad>42</edad>
+  </participante>
+  <participante>
+    <nombre>Iván</nombre>
+    <apellidos>Pascual Lorenzo</apellidos>
+    <email>ivan.pascual@example.com</email>
+    <edad>30</edad>
+  </participante>
+  <participante>
+    <nombre>Isabel</nombre>
+    <apellidos>Arias Bueno</apellidos>
+    <email>isabel.arias@example.com</email>
+    <edad>65</edad>
+  </participante>
+  <participante>
+    <nombre>Miguel</nombre>
+    <apellidos>Lázaro Casado</apellidos>
+    <email>miguel.lazaro@example.com</email>
+    <edad>37</edad>
+  </participante>
+  <participante>
+    <nombre>Julia</nombre>
+    <apellidos>Galán Herrera</apellidos>
+    <email>julia.galan@example.com</email>
+    <edad>22</edad>
+  </participante>
+  <participante>
+    <nombre>Jesús</nombre>
+    <apellidos>Sanz Redondo</apellidos>
+    <email>jesus.sanz@example.com</email>
+    <edad>44</edad>
+  </participante>
+  <participante>
+    <nombre>Rocío</nombre>
+    <apellidos>Garrido Bravo</apellidos>
+    <email>rocio.garrido@example.com</email>
+    <edad>28</edad>
+  </participante>
+  <participante>
+    <nombre>Esteban</nombre>
+    <apellidos>Palacios Cobo</apellidos>
+    <email>esteban.palacios@example.com</email>
+    <edad>35</edad>
+  </participante>
+  <participante>
+    <nombre>Mónica</nombre>
+    <apellidos>Villar Pardo</apellidos>
+    <email>monica.villar@example.com</email>
+    <edad>34</edad>
+  </participante>
+  <participante>
+    <nombre>Álvaro</nombre>
+    <apellidos>Muro Mora</apellidos>
+    <email>alvaro.muro@example.com</email>
+    <edad>26</edad>
+  </participante>
+  <participante>
+    <nombre>Verónica</nombre>
+    <apellidos>Prado Benítez</apellidos>
+    <email>veronica.prado@example.com</email>
+    <edad>41</edad>
+  </participante>
+  <participante>
+    <nombre>Raúl</nombre>
+    <apellidos>Campos Morán</apellidos>
+    <email>raul.campos@example.com</email>
+    <edad>32</edad>
+  </participante>
+  <participante>
+    <nombre>Patricia</nombre>
+    <apellidos>Fuentes Ibarra</apellidos>
+    <email>patricia.fuentes@example.com</email>
+    <edad>29</edad>
+  </participante>
+  <participante>
+    <nombre>Fernando</nombre>
+    <apellidos>Cortés Esteve</apellidos>
+    <email>fernando.cortes@example.com</email>
+    <edad>51</edad>
+  </participante>
+  <participante>
+    <nombre>Silvia</nombre>
+    <apellidos>Caballero Soler</apellidos>
+    <email>silvia.caballero@example.com</email>
+    <edad>43</edad>
+  </participante>
+  <participante>
+    <nombre>Enrique</nombre>
+    <apellidos>Cuesta Ribera</apellidos>
+    <email>enrique.cuesta@example.com</email>
+    <edad>47</edad>
+  </participante>
+  <participante>
+    <nombre>Inés</nombre>
+    <apellidos>Gimeno Durán</apellidos>
+    <email>ines.gimeno@example.com</email>
+    <edad>25</edad>
+  </participante>
+  <participante>
+    <nombre>Ricardo</nombre>
+    <apellidos>Márquez Villa</apellidos>
+    <email>ricardo.marquez@example.com</email>
+    <edad>36</edad>
+  </participante>
+  <participante>
+    <nombre>Teresa</nombre>
+    <apellidos>Hervás Hidalgo</apellidos>
+    <email>teresa.hervas@example.com</email>
+    <edad>58</edad>
+  </participante>
+  <participante>
+    <nombre>Óscar</nombre>
+    <apellidos>Andrés Mas</apellidos>
+    <email>oscar.andres@example.com</email>
+    <edad>38</edad>
+  </participante>
+  <participante>
+    <nombre>Yolanda</nombre>
+    <apellidos>Crespo Delgado</apellidos>
+    <email>yolanda.crespo@example.com</email>
+    <edad>46</edad>
+  </participante>
+  <participante>
+    <nombre>Ramón</nombre>
+    <apellidos>Vila Jurado</apellidos>
+    <email>ramon.vila@example.com</email>
+    <edad>60</edad>
+  </participante>
+  <participante>
+    <nombre>Lorena</nombre>
+    <apellidos>Sáez Bernal</apellidos>
+    <email>lorena.saez@example.com</email>
+    <edad>30</edad>
+  </participante>
+  <participante>
+    <nombre>Jaime</nombre>
+    <apellidos>Poveda Mateo</apellidos>
+    <email>jaime.poveda@example.com</email>
+    <edad>23</edad>
+  </participante>
+  <participante>
+    <nombre>Noelia</nombre>
+    <apellidos>Navas Roura</apellidos>
+    <email>noelia.navas@example.com</email>
+    <edad>33</edad>
+  </participante>
+  <participante>
+    <nombre>Albert</nombre>
+    <apellidos>Morera Solé</apellidos>
+    <email>albert.morera@example.com</email>
+    <edad>40</edad>
+  </participante>
+  <participante>
+    <nombre>Olga</nombre>
+    <apellidos>Bermúdez Royo</apellidos>
+    <email>olga.bermudez@example.com</email>
+    <edad>45</edad>
+  </participante>
+  <participante>
+    <nombre>Gabriel</nombre>
+    <apellidos>Porras Rico</apellidos>
+    <email>gabriel.porras@example.com</email>
+    <edad>27</edad>
+  </participante>
+  <participante>
+    <nombre>Amparo</nombre>
+    <apellidos>Beltrán Pons</apellidos>
+    <email>amparo.beltran@example.com</email>
+    <edad>54</edad>
+  </participante>
+  <participante>
+    <nombre>Guillermo</nombre>
+    <apellidos>Soto Vergara</apellidos>
+    <email>guillermo.soto@example.com</email>
+    <edad>31</edad>
+  </participante>
+  <participante>
+    <nombre>Carolina</nombre>
+    <apellidos>Maza Luque</apellidos>
+    <email>carolina.maza@example.com</email>
+    <edad>29</edad>
+  </participante>
+  <participante>
+    <nombre>Tomás</nombre>
+    <apellidos>Carretero Rius</apellidos>
+    <email>tomas.carretero@example.com</email>
+    <edad>48</edad>
+  </participante>
+  <participante>
+    <nombre>Miriam</nombre>
+    <apellidos>Chacón Soria</apellidos>
+    <email>miriam.chacon@example.com</email>
+    <edad>34</edad>
+  </participante>
+  <participante>
+    <nombre>César</nombre>
+    <apellidos>Salas Cepeda</apellidos>
+    <email>cesar.salas@example.com</email>
+    <edad>39</edad>
+  </participante>
+  <participante>
+    <nombre>Ismael</nombre>
+    <apellidos>Tejada Tello</apellidos>
+    <email>ismael.tejada@example.com</email>
+    <edad>21</edad>
+  </participante>
+  <participante>
+    <nombre>Ángela</nombre>
+    <apellidos>Maestre Montes</apellidos>
+    <email>angela.maestre@example.com</email>
+    <edad>36</edad>
+  </participante>
+  <participante>
+    <nombre>Héctor</nombre>
+    <apellidos>Vaquero Giner</apellidos>
+    <email>hector.vaquero@example.com</email>
+    <edad>42</edad>
+  </participante>
+  <participante>
+    <nombre>Bárbara</nombre>
+    <apellidos>Gordillo Roldán</apellidos>
+    <email>barbara.gordillo@example.com</email>
+    <edad>32</edad>
+  </participante>
+  <participante>
+    <nombre>Rubén</nombre>
+    <apellidos>Matas Huerta</apellidos>
+    <email>ruben.matas@example.com</email>
+    <edad>26</edad>
+  </participante>
+  <participante>
+    <nombre>Diana</nombre>
+    <apellidos>Roda Sevilla</apellidos>
+    <email>diana.roda@example.com</email>
+    <edad>30</edad>
+  </participante>
+  <participante>
+    <nombre>Felipe</nombre>
+    <apellidos>Aparicio Ocaña</apellidos>
+    <email>felipe.aparicio@example.com</email>
+    <edad>49</edad>
+  </participante>
+  <participante>
+    <nombre>Gema</nombre>
+    <apellidos>Palacio Cobos</apellidos>
+    <email>gema.palacio@example.com</email>
+    <edad>43</edad>
+  </participante>
+  <participante>
+    <nombre>Samuel</nombre>
+    <apellidos>Falcón Ros</apellidos>
+    <email>samuel.falcon@example.com</email>
+    <edad>24</edad>
+  </participante>
+  <participante>
+    <nombre>Esther</nombre>
+    <apellidos>Burgos Saavedra</apellidos>
+    <email>esther.burgos@example.com</email>
+    <edad>37</edad>
+  </participante>
+  <participante>
+    <nombre>Xavier</nombre>
+    <apellidos>Gual Bosch</apellidos>
+    <email>xavier.gual@example.com</email>
+    <edad>41</edad>
+  </participante>
+  <participante>
+    <nombre>Ainhoa</nombre>
+    <apellidos>López Quesada</apellidos>
+    <email>ainhoa.lopez@example.com</email>
+    <edad>28</edad>
+  </participante>
+  <participante>
+    <nombre>Victor</nombre>
+    <apellidos>Pino Cuenca</apellidos>
+    <email>victor.pino@example.com</email>
+    <edad>46</edad>
+  </participante>
+  <participante>
+    <nombre>Lidia</nombre>
+    <apellidos>Corral Sastre</apellidos>
+    <email>lidia.corral@example.com</email>
+    <edad>35</edad>
+  </participante>
+  <participante>
+    <nombre>Gonzalo</nombre>
+    <apellidos>Haro Egea</apellidos>
+    <email>gonzalo.haro@example.com</email>
+    <edad>33</edad>
+  </participante>
+  <participante>
+    <nombre>Clara</nombre>
+    <apellidos>Vallejo Arenas</apellidos>
+    <email>clara.vallejo@example.com</email>
+    <edad>27</edad>
+  </participante>
+  <participante>
+    <nombre>Marc</nombre>
+    <apellidos>Soler Vidal</apellidos>
+    <email>marc.soler@example.com</email>
+    <edad>22</edad>
+  </participante>
+  <participante>
+    <nombre>Susana</nombre>
+    <apellidos>Alba Tejera</apellidos>
+    <email>susana.alba@example.com</email>
+    <edad>50</edad>
+  </participante>
+  <participante>
+    <nombre>Borja</nombre>
+    <apellidos>Ríos Morillo</apellidos>
+    <email>borja.rios@example.com</email>
+    <edad>31</edad>
+  </participante>
+  <participante>
+    <nombre>Nerea</nombre>
+    <apellidos>Olivares Baeza</apellidos>
+    <email>nerea.olivares@example.com</email>
+    <edad>25</edad>
+  </participante>
+  <participante>
+    <nombre>Rodrigo</nombre>
+    <apellidos>Mena Juan</apellidos>
+    <email>rodrigo.mena@example.com</email>
+    <edad>39</edad>
+  </participante>
+  <participante>
+    <nombre>Ariadna</nombre>
+    <apellidos>Segura Pinto</apellidos>
+    <email>ariadna.segura@example.com</email>
+    <edad>23</edad>
+  </participante>
+</sorteo>

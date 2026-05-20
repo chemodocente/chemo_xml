@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Este es el conector entre los dos archivos -->
+<?xml-model href="biblioteca.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="biblioteca.xsl" type="text/xsl"?>
+
+<biblioteca>
+    <libro codigo="0001">
+        <titulo>El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <anio>1605</anio>
+        <precio estado="oferta">15.99</precio>
+    </libro>
+    <libro codigo="0002">
+        <titulo>El arbol de la ciencia</titulo>
+        <autor>Pío Baroja</autor>
+        <anio>1911</anio>
+        <precio estado="agotado">8.75</precio>
+    </libro>
+    <libro codigo="0003">
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <anio>1967</anio>
+        <precio>19.95</precio>
+    </libro>
+    <libro codigo="0004">
+        <titulo>Pedro Páramo</titulo>
+        <autor>Juan Rulfo</autor>
+        <anio>1955</anio>
+        <precio estado="oferta">9.99</precio>
+    </libro>
+    <libro codigo="0005">
+        <titulo>Ficciones</titulo>
+        <autor>Jorge Luis Borges</autor>
+        <anio>1944</anio>
+        <precio>14.50</precio>
+    </libro>
+    <libro codigo="0006">
+        <titulo>La casa de los espíritus</titulo>
+        <autor>Isabel Allende</autor>
+        <anio>1982</anio>
+        <precio>12.80</precio>
+    </libro>
+    <libro codigo="0007">
+        <titulo>Rayuela</titulo>
+        <autor>Julio Cortázar</autor>
+        <anio>1963</anio>
+        <precio estado="agotado">16.20</precio>
+    </libro>
+    <libro codigo="0008">
+        <titulo>La ciudad y los perros</titulo>
+        <autor>Mario Vargas Llosa</autor>
+        <anio>1963</anio>
+        <precio>11.95</precio>
+    </libro>
+    <libro codigo="0009">
+        <titulo>Crónica de una muerte anunciada</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <anio>1981</anio>
+        <precio estado="oferta">8.99</precio>
+    </libro>
+    <libro codigo="0010">
+        <titulo>El túnel</titulo>
+        <autor>Ernesto Sabato</autor>
+        <anio>1948</anio>
+        <precio>10.50</precio>
+    </libro>
+    <libro codigo="0011">
+        <titulo>La sombra del viento</titulo>
+        <autor>Carlos Ruiz Zafón</autor>
+        <anio>2001</anio>
+        <precio>21.90</precio>
+    </libro>
+    <libro codigo="0012">
+        <titulo>Bodas de sangre</titulo>
+        <autor>Federico García Lorca</autor>
+        <anio>1933</anio>
+        <precio estado="oferta">7.50</precio>
+    </libro>
+    <libro codigo="0013">
+        <titulo>Niebla</titulo>
+        <autor>Miguel de Unamuno</autor>
+        <anio>1914</anio>
+        <precio>13.20</precio>
+    </libro>
+    <libro codigo="0014">
+        <titulo>Los pasos perdidos</titulo>
+        <autor>Alejo Carpentier</autor>
+        <anio>1953</anio>
+        <precio estado="agotado">15.00</precio>
+    </libro>
+    <libro codigo="0015">
+        <titulo>La colmena</titulo>
+        <autor>Camilo José Cela</autor>
+        <anio>1951</anio>
+        <precio>11.25</precio>
+    </libro>
+    <libro codigo="0016">
+        <titulo>Doña Perfecta</titulo>
+        <autor>Benito Pérez Galdós</autor>
+        <anio>1876</anio>
+        <precio estado="oferta">6.95</precio>
+    </libro>
+    <libro codigo="0017">
+        <titulo>Los de abajo</titulo>
+        <autor>Mariano Azuela</autor>
+        <anio>1916</anio>
+        <precio>9.30</precio>
+    </libro>
+    <libro codigo="0018">
+        <titulo>El Aleph</titulo>
+        <autor>Jorge Luis Borges</autor>
+        <anio>1949</anio>
+        <precio>13.99</precio>
+    </libro>
+    <libro codigo="0019">
+        <titulo>La tregua</titulo>
+        <autor>Mario Benedetti</autor>
+        <anio>1960</anio>
+        <precio estado="oferta">10.00</precio>
+    </libro>
+    <libro codigo="0020">
+        <titulo>Campos de Castilla</titulo>
+        <autor>Antonio Machado</autor>
+        <anio>1912</anio>
+        <precio>8.50</precio>
+    </libro>
+    <libro codigo="0021">
+        <titulo>El laberinto de la soledad</titulo>
+        <autor>Octavio Paz</autor>
+        <anio>1950</anio>
+        <precio estado="agotado">12.00</precio>
+    </libro>
+    <libro codigo="0022">
+        <titulo>Como agua para chocolate</titulo>
+        <autor>Laura Esquivel</autor>
+        <anio>1989</anio>
+        <precio>14.25</precio>
+    </libro>
+</biblioteca>
