@@ -4,7 +4,7 @@
         
     <!-- INICIO WEB -->
          <html>
-            <head>
+            <head> 
                 <title>Sorteo</title>
                 <style>
                     body {
