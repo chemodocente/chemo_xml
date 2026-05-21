@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<repositorio>
+
+  <documento id="DOC001">
+    <metadatos>
+      <titulo>Manual básico de XML</titulo>
+      <autor>Departamento de Formación</autor>
+      <fechaCreacion>2026-05-21</fechaCreacion>
+      <tipoDocumento>manual</tipoDocumento>
+      <estado>aprobado</estado>
+    </metadatos>
+
+    <contenido>
+      <resumen>Documento introductorio sobre la estructura y sintaxis básica de XML.</resumen>
+      <categoria>Materiales</categoria>
+      <etiquetas>xml, lenguaje de marcas, formación</etiquetas>
+      <formato>PDF</formato>
+      <url>http://localhost/wordpress/manual-basico-xml</url>
+    </contenido>
+
+    <infointerna>
+      <version>1.0</version>
+      <ubicacion>01_documentacion/manuales</ubicacion>
+      <nivelAcceso>interno</nivelAcceso>
+      <responsableRevision>María Sánchez</responsableRevision>
+      <observaciones>Documento preparado para alumnado de nivel inicial.</observaciones>
+    </infointerna>
+  </documento>
+
+
+  <documento id="DOC002">
+    <metadatos>
+      <titulo>Ejercicio práctico de XPath</titulo>
+      <autor>Docente del curso</autor>
+      <fechaCreacion>2026-05-22</fechaCreacion>
+      <tipoDocumento>ejercicio</tipoDocumento>
+      <estado>borrador</estado>
+    </metadatos>
+
+    <contenido>
+      <resumen>Actividad para localizar nodos, atributos y valores dentro de un documento XML.</resumen>
+      <categoria>Ejercicios</categoria>
+      <etiquetas>xml, xpath, práctica</etiquetas>
+      <formato>DOCX</formato>
+      <url>http://localhost/wordpress/ejercicio-xpath</url>
+    </contenido>
+
+    <infointerna>
+      <version>0.8</version>
+      <ubicacion>03_recursos_didacticos/ejercicios</ubicacion>
+      <nivelAcceso>docente</nivelAcceso>
+      <responsableRevision>Carlos López</responsableRevision>
+      <observaciones>Pendiente de revisar antes de publicar.</observaciones>
+    </infointerna>
+  </documento>
+
+
+  <documento id="DOC003">
+    <metadatos>
+      <titulo>Presentación sobre XSD</titulo>
+      <autor>Departamento Técnico</autor>
+      <fechaCreacion>2026-05-23</fechaCreacion>
+      <tipoDocumento>presentacion</tipoDocumento>
+      <estado>publicado</estado>
+    </metadatos>
+
+    <contenido>
+      <resumen>Presentación para explicar qué es un XML Schema Definition y cómo se enlaza con un XML.</resumen>
+      <categoria>Presentaciones</categoria>
+      <etiquetas>xml, xsd, schema</etiquetas>
+      <formato>PPTX</formato>
+      <url>http://localhost/wordpress/presentacion-xsd</url>
+    </contenido>
+
+    <infointerna>
+      <version>1.2</version>
+      <ubicacion>03_recursos_didacticos/presentaciones</ubicacion>
+      <nivelAcceso>publico</nivelAcceso>
+      <responsableRevision>Ana García</responsableRevision>
+      <observaciones>Material listo para usar en clase.</observaciones>
+    </infointerna>
+  </documento>
+
+</repositorio>
