@@ -6,14 +6,15 @@ Tareas a realizar
 - Transformar mediante XSLT a WEB para ver el listado, con tabla. 
 -->
 
-
+<?xml-model href="participantes.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?> 
+<?xml-stylesheet href="participantes.xsl" type="text/xsl"?>
 
 <sorteo>
   <participante>
     <nombre>Alejandro</nombre>
     <apellidos>García Martínez</apellidos>
     <email>alejandro.garcia@example.com</email>
-    <edad>28</edad>
+    <edad>8</edad>
   </participante>
   <participante>
     <nombre>María</nombre>
@@ -25,7 +26,7 @@ Tareas a realizar
     <nombre>Carlos</nombre>
     <apellidos>Fernández Gómez</apellidos>
     <email>carlos.fernandez@example.com</email>
-    <edad>41</edad>
+    <edad>9</edad>
   </participante>
   <participante>
     <nombre>Ana</nombre>

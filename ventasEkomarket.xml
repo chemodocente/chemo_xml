@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding=""?>
+
+<table_data name="cliente">
+	<row>
+		<field name="id_cliente">0</field>
+		<field name="nif">24234234</field>
+		<field name="nombre">Juan</field>
+		<field name="telefono">666777888</field>
+		<field name="ciudad">Almería</field>
+		<field name="email">juan@dealmeria.com</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">1</field>
+		<field name="nif">11111111A</field>
+		<field name="nombre">Ana Beltrán</field>
+		<field name="telefono">600111111</field>
+		<field name="ciudad">Sevilla</field>
+		<field name="email">ana@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">2</field>
+		<field name="nif">22222222B</field>
+		<field name="nombre">Luis Ortega</field>
+		<field name="telefono">600222222</field>
+		<field name="ciudad">Málaga</field>
+		<field name="email">luis@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">3</field>
+		<field name="nif">33333333C</field>
+		<field name="nombre">Marta Pérez</field>
+		<field name="telefono">600333333</field>
+		<field name="ciudad">Sevilla</field>
+		<field name="email">marta@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">4</field>
+		<field name="nif">44444444D</field>
+		<field name="nombre">Javier Gómez</field>
+		<field name="telefono">600444444</field>
+		<field name="ciudad">Cádiz</field>
+		<field name="email">javier@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">5</field>
+		<field name="nif">76054573S</field>
+		<field name="nombre">Laura Pérez Gómez</field>
+		<field name="telefono">941865457</field>
+		<field name="ciudad">Granada</field>
+		<field name="email">lpg@mail.net</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">101</field>
+		<field name="nif">50000000T</field>
+		<field name="nombre">Ana García Torres</field>
+		<field name="telefono">601000000</field>
+		<field name="ciudad">Sevilla</field>
+		<field name="email">ana.garcia101@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">102</field>
+		<field name="nif">50000001R</field>
+		<field name="nombre">Luis Pérez Jiménez</field>
+		<field name="telefono">611000027</field>
+		<field name="ciudad">Granada</field>
+		<field name="email">luis.perez102@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">103</field>
+		<field name="nif">50000002W</field>
+		<field name="nombre">Marta López Castro</field>
+		<field name="telefono">621000054</field>
+		<field name="ciudad">Córdoba</field>
+		<field name="email">marta.lopez103@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">104</field>
+		<field name="nif">50000003A</field>
+		<field name="nombre">Javier Sánchez Vega</field>
+		<field name="telefono">631000081</field>
+		<field name="ciudad">Jaén</field>
+		<field name="email">javier.sanchez104@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">105</field>
+		<field name="nif">50000004G</field>
+		<field name="nombre">Carmen Romero García</field>
+		<field name="telefono">641000108</field>
+		<field name="ciudad">Madrid</field>
+		<field name="email">carmen.romero105@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">106</field>
+		<field name="nif">50000005M</field>
+		<field name="nombre">Pablo Torres Jiménez</field>
+		<field name="telefono">651000135</field>
+		<field name="ciudad">Sevilla</field>
+		<field name="email">pablo.torres106@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">107</field>
+		<field name="nif">50000006Y</field>
+		<field name="nombre">Lucía Ruiz Castro</field>
+		<field name="telefono">661000162</field>
+		<field name="ciudad">Granada</field>
+		<field name="email">lucia.ruiz107@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">108</field>
+		<field name="nif">50000007F</field>
+		<field name="nombre">Diego Moreno Vega</field>
+		<field name="telefono">671000189</field>
+		<field name="ciudad">Córdoba</field>
+		<field name="email">diego.moreno108@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">109</field>
+		<field name="nif">50000008P</field>
+		<field name="nombre">Elena Jiménez García</field>
+		<field name="telefono">681000216</field>
+		<field name="ciudad">Jaén</field>
+		<field name="email">elena.jimenez109@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">110</field>
+		<field name="nif">50000009D</field>
+		<field name="nombre">Sergio Navarro Jiménez</field>
+		<field name="telefono">691000243</field>
+		<field name="ciudad">Madrid</field>
+		<field name="email">sergio.navarro110@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">111</field>
+		<field name="nif">50000010X</field>
+		<field name="nombre">Laura Molina Castro</field>
+		<field name="telefono">601000270</field>
+		<field name="ciudad">Sevilla</field>
+		<field name="email">laura.molina111@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">112</field>
+		<field name="nif">50000011B</field>
+		<field name="nombre">Raúl Castro Vega</field>
+		<field name="telefono">611000297</field>
+		<field name="ciudad">Granada</field>
+		<field name="email">raul.castro112@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">113</field>
+		<field name="nif">50000012N</field>
+		<field name="nombre">Beatriz Ortega García</field>
+		<field name="telefono">621000324</field>
+		<field name="ciudad">Córdoba</field>
+		<field name="email">beatriz.ortega113@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">114</field>
+		<field name="nif">50000013J</field>
+		<field name="nombre">Álvaro Vega Jiménez</field>
+		<field name="telefono">631000351</field>
+		<field name="ciudad">Jaén</field>
+		<field name="email">álvaro.vega114@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">115</field>
+		<field name="nif">50000014Z</field>
+		<field name="nombre">Nuria Reyes Castro</field>
+		<field name="telefono">641000378</field>
+		<field name="ciudad">Madrid</field>
+		<field name="email">nuria.reyes115@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">116</field>
+		<field name="nif">50000015S</field>
+		<field name="nombre">David Suárez Vega</field>
+		<field name="telefono">651000405</field>
+		<field name="ciudad">Sevilla</field>
+		<field name="email">david.suarez116@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">117</field>
+		<field name="nif">50000016Q</field>
+		<field name="nombre">Paula Márquez García</field>
+		<field name="telefono">661000432</field>
+		<field name="ciudad">Granada</field>
+		<field name="email">paula.marquez117@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">118</field>
+		<field name="nif">50000017V</field>
+		<field name="nombre">Adrián Campos Jiménez</field>
+		<field name="telefono">671000459</field>
+		<field name="ciudad">Córdoba</field>
+		<field name="email">adrian.campos118@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">119</field>
+		<field name="nif">50000018H</field>
+		<field name="nombre">Irene Gil Castro</field>
+		<field name="telefono">681000486</field>
+		<field name="ciudad">Jaén</field>
+		<field name="email">irene.gil119@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">120</field>
+		<field name="nif">50000019L</field>
+		<field name="nombre">Manuel Herrera Vega</field>
+		<field name="telefono">691000513</field>
+		<field name="ciudad">Madrid</field>
+		<field name="email">manuel.herrera120@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">121</field>
+		<field name="nif">50000020C</field>
+		<field name="nombre">Ana García Torres</field>
+		<field name="telefono">601000540</field>
+		<field name="ciudad">Sevilla</field>
+		<field name="email">ana.garcia121@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">122</field>
+		<field name="nif">50000021K</field>
+		<field name="nombre">Luis Pérez Jiménez</field>
+		<field name="telefono">611000567</field>
+		<field name="ciudad">Granada</field>
+		<field name="email">luis.perez122@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">123</field>
+		<field name="nif">50000022E</field>
+		<field name="nombre">Marta López Castro</field>
+		<field name="telefono">621000594</field>
+		<field name="ciudad">Córdoba</field>
+		<field name="email">marta.lopez123@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">124</field>
+		<field name="nif">50000023T</field>
+		<field name="nombre">Javier Sánchez Vega</field>
+		<field name="telefono">631000621</field>
+		<field name="ciudad">Jaén</field>
+		<field name="email">javier.sanchez124@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">125</field>
+		<field name="nif">50000024R</field>
+		<field name="nombre">Carmen Romero García</field>
+		<field name="telefono">641000648</field>
+		<field name="ciudad">Madrid</field>
+		<field name="email">carmen.romero125@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">126</field>
+		<field name="nif">50000025W</field>
+		<field name="nombre">Pablo Torres Jiménez</field>
+		<field name="telefono">651000675</field>
+		<field name="ciudad">Sevilla</field>
+		<field name="email">pablo.torres126@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">127</field>
+		<field name="nif">50000026A</field>
+		<field name="nombre">Lucía Ruiz Castro</field>
+		<field name="telefono">661000702</field>
+		<field name="ciudad">Granada</field>
+		<field name="email">lucia.ruiz127@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">128</field>
+		<field name="nif">50000027G</field>
+		<field name="nombre">Diego Moreno Vega</field>
+		<field name="telefono">671000729</field>
+		<field name="ciudad">Córdoba</field>
+		<field name="email">diego.moreno128@mail.es</field>
+		<field name="fecha_alta">2011-12-12</field>
+	</row>
+	<row>
+		<field name="id_cliente">129</field>
+		<field name="nif">50000028M</field>
+		<field name="nombre">Elena Jiménez García</field>
+		<field name="telefono">681000756</field>
+		<field name="ciudad">Jaén</field>
+		<field name="email">elena.jimenez129@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">130</field>
+		<field name="nif">50000029Y</field>
+		<field name="nombre">Sergio Navarro Jiménez</field>
+		<field name="telefono">691000783</field>
+		<field name="ciudad">Madrid</field>
+		<field name="email">sergio.navarro130@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">131</field>
+		<field name="nif">50000030F</field>
+		<field name="nombre">Laura Molina Castro</field>
+		<field name="telefono">601000810</field>
+		<field name="ciudad">Sevilla</field>
+		<field name="email">laura.molina131@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">132</field>
+		<field name="nif">50000031P</field>
+		<field name="nombre">Raúl Castro Vega</field>
+		<field name="telefono">611000837</field>
+		<field name="ciudad">Granada</field>
+		<field name="email">raul.castro132@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">133</field>
+		<field name="nif">50000032D</field>
+		<field name="nombre">Beatriz Ortega García</field>
+		<field name="telefono">621000864</field>
+		<field name="ciudad">Córdoba</field>
+		<field name="email">beatriz.ortega133@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">134</field>
+		<field name="nif">50000033X</field>
+		<field name="nombre">Álvaro Vega Jiménez</field>
+		<field name="telefono">631000891</field>
+		<field name="ciudad">Jaén</field>
+		<field name="email">álvaro.vega134@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">135</field>
+		<field name="nif">50000034B</field>
+		<field name="nombre">Nuria Reyes Castro</field>
+		<field name="telefono">641000918</field>
+		<field name="ciudad">Madrid</field>
+		<field name="email">nuria.reyes135@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">136</field>
+		<field name="nif">50000035N</field>
+		<field name="nombre">David Suárez Vega</field>
+		<field name="telefono">651000945</field>
+		<field name="ciudad">Sevilla</field>
+		<field name="email">david.suarez136@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">137</field>
+		<field name="nif">50000036J</field>
+		<field name="nombre">Paula Márquez García</field>
+		<field name="telefono">661000972</field>
+		<field name="ciudad">Granada</field>
+		<field name="email">paula.marquez137@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">138</field>
+		<field name="nif">50000037Z</field>
+		<field name="nombre">Adrián Campos Jiménez</field>
+		<field name="telefono">671000999</field>
+		<field name="ciudad">Córdoba</field>
+		<field name="email">adrian.campos138@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">139</field>
+		<field name="nif">50000038S</field>
+		<field name="nombre">Irene Gil Castro</field>
+		<field name="telefono">681001026</field>
+		<field name="ciudad">Jaén</field>
+		<field name="email">irene.gil139@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id_cliente">140</field>
+		<field name="nif">50000039Q</field>
+		<field name="nombre">Manuel Herrera López</field>
+		<field name="telefono">691001056</field>
+		<field name="ciudad">Madrid</field>
+		<field name="email">manuel.herrera140@mail.es</field>
+		<field name="fecha_alta" xsi:nil="true" />
+	</row>
+</table_data>

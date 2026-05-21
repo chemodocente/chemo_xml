@@ -1,5 +1,7 @@
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">      
+    <xsl:output method="html" enconding="UTF-8" indent="yes"/>
     <xsl:template match="/">
+  
         <html>
             <head>
                 <title>Biblioteca</title>
@@ -10,11 +12,12 @@
 
                 <table border="1" width="80%">
                     <tr>
+                        <th>Código</th>
                         <th>Titulo de Libro</th>
                         <th>Autor</th>
                         <th>Publicado</th>
                         <th>PRECIO</th>
-                        <th>Código</th>
+    
                     </tr>
                     <xsl:for-each select="biblioteca/libro">
                          <xsl:sort select="codigo" data-type="number"/>
