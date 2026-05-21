@@ -39,9 +39,29 @@
                         </tr>
                     </xsl:for-each>
                 </table>
-
+                <ol>
+                    <xsl:for-each select="sorteo/participante/nombre">
+                        <li><xsl:value-of select="."/> &#160;<xsl:value-of select="../apellidos"/></li>
+                    </xsl:for-each>
+                </ol>
             </body>
          </html>
 
     </xsl:template>
 </xsl:stylesheet>
+
+
+
+<!-- 
+/ camino exacto....
+
+// sin camino exacto buscame todo lo que se llame "como haya puesto"
+        /sorteo/participante/nombre
+        sorteo/participante/mascota/nombre
+        //nombre
+
+@Atributo seleciona un atributo
+    /sorteo/participante[@id="037"]
+
+    
+-->
