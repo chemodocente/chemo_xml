@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="artistas.xsl"?>
+
+<artistas>
+    <artista id="a001">
+        <datos>
+            <nombreArtistico>Penélope Cruz</nombreArtistico>
+            <nombreCompleto>Penélope Cruz Sánchez</nombreCompleto>
+            <nacionalidad>Española</nacionalidad>
+            <anioNacimiento>1974</anioNacimiento>
+            <lugarNacimiento>Alcobendas, Madrid, España</lugarNacimiento>
+            <profesion>Actriz</profesion>
+            <premios>Oscar, BAFTA, Goya</premios>
+            <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Pen%C3%A9lope_Cruz_2.jpg</foto>
+        </datos>
+
+        <filmografia>
+            <pelicula>
+                <titulo>Volver</titulo>
+                <anio>2006</anio>
+                <personaje>Raimunda</personaje>
+                <director>Pedro Almodóvar</director>
+            </pelicula>
+            <pelicula>
+                <titulo>Vicky Cristina Barcelona</titulo>
+                <anio>2008</anio>
+                <personaje>María Elena</personaje>
+                <director>Woody Allen</director>
+            </pelicula>
+            <pelicula>
+                <titulo>Dolor y gloria</titulo>
+                <anio>2019</anio>
+                <personaje>Jacinta</personaje>
+                <director>Pedro Almodóvar</director>
+            </pelicula>
+        </filmografia>
+    </artista>
+
+    <artista id="a002">
+        <datos>
+            <nombreArtistico>Javier Bardem</nombreArtistico>
+            <nombreCompleto>Javier Ángel Encinas Bardem</nombreCompleto>
+            <nacionalidad>Española</nacionalidad>
+            <anioNacimiento>1969</anioNacimiento>
+            <lugarNacimiento>Las Palmas de Gran Canaria, España</lugarNacimiento>
+            <profesion>Actor</profesion>
+            <premios>Oscar, BAFTA, Goya</premios>
+            <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Javier_Bardem_2011_AA.jpg</foto>
+        </datos>
+
+        <filmografia>
+            <pelicula>
+                <titulo>Mar adentro</titulo>
+                <anio>2004</anio>
+                <personaje>Ramón Sampedro</personaje>
+                <director>Alejandro Amenábar</director>
+            </pelicula>
+            <pelicula>
+                <titulo>No Country for Old Men</titulo>
+                <anio>2007</anio>
+                <personaje>Anton Chigurh</personaje>
+                <director>Joel Coen y Ethan Coen</director>
+            </pelicula>
+            <pelicula>
+                <titulo>Skyfall</titulo>
+                <anio>2012</anio>
+                <personaje>Raoul Silva</personaje>
+                <director>Sam Mendes</director>
+            </pelicula>
+        </filmografia>
+    </artista>
+
+    <artista id="a003">
+        <datos>
+            <nombreArtistico>Emma Stone</nombreArtistico>
+            <nombreCompleto>Emily Jean Stone</nombreCompleto>
+            <nacionalidad>Estadounidense</nacionalidad>
+            <anioNacimiento>1988</anioNacimiento>
+            <lugarNacimiento>Scottsdale, Arizona, Estados Unidos</lugarNacimiento>
+            <profesion>Actriz</profesion>
+            <premios>Oscar, BAFTA, Globo de Oro</premios>
+            <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Emma-Stone-Photo-Call.jpg</foto>
+        </datos>
+
+        <filmografia>
+            <pelicula>
+                <titulo>La La Land</titulo>
+                <anio>2016</anio>
+                <personaje>Mia Dolan</personaje>
+                <director>Damien Chazelle</director>
+            </pelicula>
+            <pelicula>
+                <titulo>Birdman</titulo>
+                <anio>2014</anio>
+                <personaje>Sam Thomson</personaje>
+                <director>Alejandro G. Iñárritu</director>
+            </pelicula>
+            <pelicula>
+                <titulo>Poor Things</titulo>
+                <anio>2023</anio>
+                <personaje>Bella Baxter</personaje>
+                <director>Yorgos Lanthimos</director>
+            </pelicula>
+        </filmografia>
+    </artista>
+
+    <artista id="a004">
+        <datos>
+            <nombreArtistico>Leonardo DiCaprio</nombreArtistico>
+            <nombreCompleto>Leonardo Wilhelm DiCaprio</nombreCompleto>
+            <nacionalidad>Estadounidense</nacionalidad>
+            <anioNacimiento>1974</anioNacimiento>
+            <lugarNacimiento>Los Ángeles, California, Estados Unidos</lugarNacimiento>
+            <profesion>Actor y productor</profesion>
+            <premios>Oscar, BAFTA, Globo de Oro</premios>
+            <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_DiCaprio_crop.jpg</foto>
+        </datos>
+
+        <filmografia>
+            <pelicula>
+                <titulo>Titanic</titulo>
+                <anio>1997</anio>
+                <personaje>Jack Dawson</personaje>
+                <director>James Cameron</director>
+            </pelicula>
+            <pelicula>
+                <titulo>Inception</titulo>
+                <anio>2010</anio>
+                <personaje>Dom Cobb</personaje>
+                <director>Christopher Nolan</director>
+            </pelicula>
+            <pelicula>
+                <titulo>The Revenant</titulo>
+                <anio>2015</anio>
+                <personaje>Hugh Glass</personaje>
+                <director>Alejandro G. Iñárritu</director>
+            </pelicula>
+        </filmografia>
+    </artista>
+    <artista id="a005">
+    <datos>
+        <nombreArtistico>Meryl Streep</nombreArtistico>
+        <nombreCompleto>Mary Louise Streep</nombreCompleto>
+        <nacionalidad>Estadounidense</nacionalidad>
+        <anioNacimiento>1949</anioNacimiento>
+        <lugarNacimiento>Summit, Nueva Jersey, Estados Unidos</lugarNacimiento>
+        <profesion>Actriz</profesion>
+        <premios>Oscar, Globo de Oro, BAFTA</premios>
+        <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Meryl_Streep_December_2018.jpg</foto>
+    </datos>
+    <filmografia>
+        <pelicula>
+            <titulo>The Devil Wears Prada</titulo>
+            <anio>2006</anio>
+            <personaje>Miranda Priestly</personaje>
+            <director>David Frankel</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Sophie’s Choice</titulo>
+            <anio>1982</anio>
+            <personaje>Sophie Zawistowski</personaje>
+            <director>Alan J. Pakula</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Mamma Mia!</titulo>
+            <anio>2008</anio>
+            <personaje>Donna Sheridan</personaje>
+            <director>Phyllida Lloyd</director>
+        </pelicula>
+    </filmografia>
+</artista>
+
+<artista id="a006">
+    <datos>
+        <nombreArtistico>Tom Hanks</nombreArtistico>
+        <nombreCompleto>Thomas Jeffrey Hanks</nombreCompleto>
+        <nacionalidad>Estadounidense</nacionalidad>
+        <anioNacimiento>1956</anioNacimiento>
+        <lugarNacimiento>Concord, California, Estados Unidos</lugarNacimiento>
+        <profesion>Actor y productor</profesion>
+        <premios>Oscar, Globo de Oro, Emmy</premios>
+        <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Tom_Hanks_TIFF_2019.jpg</foto>
+    </datos>
+    <filmografia>
+        <pelicula>
+            <titulo>Forrest Gump</titulo>
+            <anio>1994</anio>
+            <personaje>Forrest Gump</personaje>
+            <director>Robert Zemeckis</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Saving Private Ryan</titulo>
+            <anio>1998</anio>
+            <personaje>Capitán John H. Miller</personaje>
+            <director>Steven Spielberg</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Cast Away</titulo>
+            <anio>2000</anio>
+            <personaje>Chuck Noland</personaje>
+            <director>Robert Zemeckis</director>
+        </pelicula>
+    </filmografia>
+</artista>
+
+<artista id="a007">
+    <datos>
+        <nombreArtistico>Cate Blanchett</nombreArtistico>
+        <nombreCompleto>Catherine Élise Blanchett</nombreCompleto>
+        <nacionalidad>Australiana</nacionalidad>
+        <anioNacimiento>1969</anioNacimiento>
+        <lugarNacimiento>Melbourne, Australia</lugarNacimiento>
+        <profesion>Actriz</profesion>
+        <premios>Oscar, BAFTA, Globo de Oro</premios>
+        <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Cate_Blanchett_Cannes_2018.jpg</foto>
+    </datos>
+    <filmografia>
+        <pelicula>
+            <titulo>Blue Jasmine</titulo>
+            <anio>2013</anio>
+            <personaje>Jasmine Francis</personaje>
+            <director>Woody Allen</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Carol</titulo>
+            <anio>2015</anio>
+            <personaje>Carol Aird</personaje>
+            <director>Todd Haynes</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Tár</titulo>
+            <anio>2022</anio>
+            <personaje>Lydia Tár</personaje>
+            <director>Todd Field</director>
+        </pelicula>
+    </filmografia>
+</artista>
+
+<artista id="a008">
+    <datos>
+        <nombreArtistico>Denzel Washington</nombreArtistico>
+        <nombreCompleto>Denzel Hayes Washington Jr.</nombreCompleto>
+        <nacionalidad>Estadounidense</nacionalidad>
+        <anioNacimiento>1954</anioNacimiento>
+        <lugarNacimiento>Mount Vernon, Nueva York, Estados Unidos</lugarNacimiento>
+        <profesion>Actor y director</profesion>
+        <premios>Oscar, Globo de Oro, Tony</premios>
+        <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Denzel_Washington_2018.jpg</foto>
+    </datos>
+    <filmografia>
+        <pelicula>
+            <titulo>Training Day</titulo>
+            <anio>2001</anio>
+            <personaje>Alonzo Harris</personaje>
+            <director>Antoine Fuqua</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Malcolm X</titulo>
+            <anio>1992</anio>
+            <personaje>Malcolm X</personaje>
+            <director>Spike Lee</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Fences</titulo>
+            <anio>2016</anio>
+            <personaje>Troy Maxson</personaje>
+            <director>Denzel Washington</director>
+        </pelicula>
+    </filmografia>
+</artista>
+
+<artista id="a009">
+    <datos>
+        <nombreArtistico>Natalie Portman</nombreArtistico>
+        <nombreCompleto>Natalie Hershlag</nombreCompleto>
+        <nacionalidad>Israelí-estadounidense</nacionalidad>
+        <anioNacimiento>1981</anioNacimiento>
+        <lugarNacimiento>Jerusalén, Israel</lugarNacimiento>
+        <profesion>Actriz</profesion>
+        <premios>Oscar, Globo de Oro, BAFTA</premios>
+        <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Natalie_Portman_Cannes_2015.jpg</foto>
+    </datos>
+    <filmografia>
+        <pelicula>
+            <titulo>Black Swan</titulo>
+            <anio>2010</anio>
+            <personaje>Nina Sayers</personaje>
+            <director>Darren Aronofsky</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Jackie</titulo>
+            <anio>2016</anio>
+            <personaje>Jacqueline Kennedy</personaje>
+            <director>Pablo Larraín</director>
+        </pelicula>
+        <pelicula>
+            <titulo>V for Vendetta</titulo>
+            <anio>2005</anio>
+            <personaje>Evey Hammond</personaje>
+            <director>James McTeigue</director>
+        </pelicula>
+    </filmografia>
+</artista>
+
+<artista id="a010">
+    <datos>
+        <nombreArtistico>Antonio Banderas</nombreArtistico>
+        <nombreCompleto>José Antonio Domínguez Bandera</nombreCompleto>
+        <nacionalidad>Española</nacionalidad>
+        <anioNacimiento>1960</anioNacimiento>
+        <lugarNacimiento>Málaga, España</lugarNacimiento>
+        <profesion>Actor, director y productor</profesion>
+        <premios>Goya, Premio del Festival de Cannes, Premio del Cine Europeo</premios>
+        <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Antonio_Banderas_2019.jpg</foto>
+    </datos>
+    <filmografia>
+        <pelicula>
+            <titulo>La máscara del Zorro</titulo>
+            <anio>1998</anio>
+            <personaje>Alejandro Murrieta / Zorro</personaje>
+            <director>Martin Campbell</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Dolor y gloria</titulo>
+            <anio>2019</anio>
+            <personaje>Salvador Mallo</personaje>
+            <director>Pedro Almodóvar</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Desperado</titulo>
+            <anio>1995</anio>
+            <personaje>El Mariachi</personaje>
+            <director>Robert Rodriguez</director>
+        </pelicula>
+    </filmografia>
+</artista>
+
+<artista id="a011">
+    <datos>
+        <nombreArtistico>Salma Hayek</nombreArtistico>
+        <nombreCompleto>Salma Valgarma Hayek Jiménez</nombreCompleto>
+        <nacionalidad>Mexicana-estadounidense</nacionalidad>
+        <anioNacimiento>1966</anioNacimiento>
+        <lugarNacimiento>Coatzacoalcos, Veracruz, México</lugarNacimiento>
+        <profesion>Actriz y productora</profesion>
+        <premios>Premio Ariel, nominación al Oscar, Emmy</premios>
+        <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Salma_Hayek_by_Gage_Skidmore_2.jpg</foto>
+    </datos>
+    <filmografia>
+        <pelicula>
+            <titulo>Frida</titulo>
+            <anio>2002</anio>
+            <personaje>Frida Kahlo</personaje>
+            <director>Julie Taymor</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Desperado</titulo>
+            <anio>1995</anio>
+            <personaje>Carolina</personaje>
+            <director>Robert Rodriguez</director>
+        </pelicula>
+        <pelicula>
+            <titulo>From Dusk till Dawn</titulo>
+            <anio>1996</anio>
+            <personaje>Santanico Pandemonium</personaje>
+            <director>Robert Rodriguez</director>
+        </pelicula>
+    </filmografia>
+</artista>
+
+<artista id="a012">
+    <datos>
+        <nombreArtistico>Brad Pitt</nombreArtistico>
+        <nombreCompleto>William Bradley Pitt</nombreCompleto>
+        <nacionalidad>Estadounidense</nacionalidad>
+        <anioNacimiento>1963</anioNacimiento>
+        <lugarNacimiento>Shawnee, Oklahoma, Estados Unidos</lugarNacimiento>
+        <profesion>Actor y productor</profesion>
+        <premios>Oscar, Globo de Oro, BAFTA</premios>
+        <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Brad_Pitt_2019_by_Glenn_Francis.jpg</foto>
+    </datos>
+    <filmografia>
+        <pelicula>
+            <titulo>Fight Club</titulo>
+            <anio>1999</anio>
+            <personaje>Tyler Durden</personaje>
+            <director>David Fincher</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Once Upon a Time in Hollywood</titulo>
+            <anio>2019</anio>
+            <personaje>Cliff Booth</personaje>
+            <director>Quentin Tarantino</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Seven</titulo>
+            <anio>1995</anio>
+            <personaje>David Mills</personaje>
+            <director>David Fincher</director>
+        </pelicula>
+    </filmografia>
+</artista>
+
+<artista id="a013">
+    <datos>
+        <nombreArtistico>Viola Davis</nombreArtistico>
+        <nombreCompleto>Viola Davis</nombreCompleto>
+        <nacionalidad>Estadounidense</nacionalidad>
+        <anioNacimiento>1965</anioNacimiento>
+        <lugarNacimiento>St. Matthews, Carolina del Sur, Estados Unidos</lugarNacimiento>
+        <profesion>Actriz y productora</profesion>
+        <premios>Oscar, Emmy, Tony, Grammy</premios>
+        <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Viola_Davis_by_Gage_Skidmore.jpg</foto>
+    </datos>
+    <filmografia>
+        <pelicula>
+            <titulo>Fences</titulo>
+            <anio>2016</anio>
+            <personaje>Rose Maxson</personaje>
+            <director>Denzel Washington</director>
+        </pelicula>
+        <pelicula>
+            <titulo>The Help</titulo>
+            <anio>2011</anio>
+            <personaje>Aibileen Clark</personaje>
+            <director>Tate Taylor</director>
+        </pelicula>
+        <pelicula>
+            <titulo>The Woman King</titulo>
+            <anio>2022</anio>
+            <personaje>General Nanisca</personaje>
+            <director>Gina Prince-Bythewood</director>
+        </pelicula>
+    </filmografia>
+</artista>
+
+<artista id="a014">
+    <datos>
+        <nombreArtistico>Ricardo Darín</nombreArtistico>
+        <nombreCompleto>Ricardo Alberto Darín</nombreCompleto>
+        <nacionalidad>Argentina</nacionalidad>
+        <anioNacimiento>1957</anioNacimiento>
+        <lugarNacimiento>Buenos Aires, Argentina</lugarNacimiento>
+        <profesion>Actor</profesion>
+        <premios>Premio Goya, Premio Cóndor de Plata, Premio Platino</premios>
+        <foto>https://commons.wikimedia.org/wiki/Special:FilePath/Ricardo_Darin_Cannes_2018.jpg</foto>
+    </datos>
+    <filmografia>
+        <pelicula>
+            <titulo>El secreto de sus ojos</titulo>
+            <anio>2009</anio>
+            <personaje>Benjamín Espósito</personaje>
+            <director>Juan José Campanella</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Nueve reinas</titulo>
+            <anio>2000</anio>
+            <personaje>Marcos</personaje>
+            <director>Fabián Bielinsky</director>
+        </pelicula>
+        <pelicula>
+            <titulo>Argentina, 1985</titulo>
+            <anio>2022</anio>
+            <personaje>Julio César Strassera</personaje>
+            <director>Santiago Mitre</director>
+        </pelicula>
+    </filmografia>
+</artista>
+</artistas>

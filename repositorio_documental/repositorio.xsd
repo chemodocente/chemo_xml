@@ -1,0 +1,49 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="repositorio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="documento" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                    <xs:element name="metadatos">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="titulo" type="xs:string"/>
+                                <xs:element name="autor" type="xs:string"/>
+                                <xs:element name="fechaCreacion" type="xs:date"/>
+                                <xs:element name="tipoDocumento" type="xs:string"/>
+                                <xs:element name="estado" type="xs:string"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="contenido">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="resumen" type="xs:string"/>
+                                <xs:element name="categoria" type="xs:string"/>
+                                <xs:element name="etiquetas" type="xs:string"/>
+                                <xs:element name="formato" type="xs:string"/>
+                                <xs:element name="url" type="xs:anyURI"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="infointerna">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="version" type="xs:string"/>
+                                <xs:element name="ubicacion" type="xs:string"/>
+                                <xs:element name="nivelAcceso" type="xs:string"/>
+                                <xs:element name="responsableRevision" type="xs:string"/>
+                                <xs:element name="observaciones" type="xs:string"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:string"/>    
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
