@@ -1,0 +1,13 @@
+<!ELEMENT catalogo (libro+)>
+<!ATTLIST catalogo nombreBiblioteca CDATA #REQUIRED>
+
+<!ELEMENT libro (titulo, autor, anio, genero, disponible, ejemplares)>
+<!ATTLIST libro id ID #REQUIRED>
+<!ATTLIST libro isbn CDATA #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT disponible (#PCDATA)>
+<!ELEMENT ejemplares (#PCDATA)>
