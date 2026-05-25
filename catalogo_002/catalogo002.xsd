@@ -11,6 +11,10 @@
         <xs:attribute name="nombreBiblioteca" type="xs:string" use="required"/>
     </xs:complexType>
 
+<!-- Aqui hago el desarrollo de los tipos de datos, 
+ esos fragmentos que me ayudan a definir las restricciones de manera
+ mas comoda y estructurada -->
+
     <xs:complexType name="tipoLibro">
         <xs:sequence>
             <xs:element name="titulo" type="xs:string"/>
