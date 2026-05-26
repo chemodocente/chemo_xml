@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo SYSTEM "catalogo.dtd">
+<?xml-model href="catalogo.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="catalogo.xsl" type="text/xsl"?>
+
+<catalogo nombreBiblioteca="El Faro de Recondito">
+
+  <libro isbn="978-84-376-0494-7">
+    <titulo>Cien años de soledad</titulo>
+    <autor>Gabriel García Márquez</autor>
+    <anio>1967</anio>
+    <genero>Novela</genero>
+    <disponible>true</disponible>
+    <ejemplares>3</ejemplares>
+  </libro>
+
+  <libro isbn="978-84-204-8325-0">
+    <titulo>El nombre de la rosa</titulo>
+    <autor>Umberto Eco</autor>
+    <anio>1980</anio>
+    <genero>Novela histórica</genero>
+    <disponible>false</disponible>
+    <ejemplares>2</ejemplares>
+  </libro>
+
+  <libro isbn="978-84-339-7428-0">
+    <titulo>La metamorfosis</titulo>
+    <autor>Franz Kafka</autor>
+    <anio>1915</anio>
+    <genero>Novela corta</genero>
+    <disponible>true</disponible>
+    <ejemplares>5</ejemplares>
+  </libro>
+
+  <libro isbn="978-84-663-4684-2">
+    <titulo>1984</titulo>
+    <autor>George Orwell</autor>
+    <anio>1949</anio>
+    <genero>Ciencia ficción</genero>
+    <disponible>true</disponible>
+    <ejemplares>4</ejemplares>
+  </libro>
+
+
+</catalogo>
