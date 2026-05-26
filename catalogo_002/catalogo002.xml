@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE catalogo SYSTEM "catalogo002.dtd">
+<?xml-model href="catalogo002.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="catalogo002.xsl" type="text/xsl"?>
+
+<catalogo nombreBiblioteca="Biblioteca Almerimatik">
+
+    <libro id="libro_001" isbn="978-84-376-0494-7">
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <anio>1967</anio>
+        <genero>Novela</genero>
+        <disponible>true</disponible>
+        <ejemplares>3</ejemplares>
+    </libro>
+
+    <libro id="libro_002" isbn="978-84-233-5698-3">
+        <titulo>La sombra del viento</titulo>
+        <autor>Carlos Ruiz Zafón</autor>
+        <anio>2001</anio>
+        <genero>Novela</genero>
+        <disponible>false</disponible>
+        <ejemplares>2</ejemplares>
+    </libro>
+
+    <libro id="libro_003" isbn="978-84-204-8568-7">
+        <titulo>El camino</titulo>
+        <autor>Miguel Delibes</autor>
+        <anio>1950</anio>
+        <genero>Novela</genero>
+        <disponible>true</disponible>
+        <ejemplares>4</ejemplares>
+    </libro>
+
+    <libro id="libro_004" isbn="978-84-376-0495-4">
+        <titulo>La casa de Bernarda Alba</titulo>
+        <autor>Federico García Lorca</autor>
+        <anio>1936</anio>
+        <genero>Teatro</genero>
+        <disponible>false</disponible>
+        <ejemplares>1</ejemplares>
+    </libro>
+
+</catalogo>
