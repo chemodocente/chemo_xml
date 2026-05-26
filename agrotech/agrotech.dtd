@@ -1,0 +1,11 @@
+<!ELEMENT agrotech (cultivo*)>
+<!ATTLIST agrotech
+    nombre CDATA #REQUIRED
+    ciudad CDATA #REQUIRED>
+<!ELEMENT cultivo (nombre, tipo, superficie, fechaSiembra, estado)>
+<!ATTLIST cultivo id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT superficie (#PCDATA)>
+<!ELEMENT fechaSiembra (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>

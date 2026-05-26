@@ -1,0 +1,11 @@
+{
+  "chat.disableAIFeatures": true,
+  "github.copilot.enable": {
+    "*": false,
+    "xml": false,
+    "xsl": false,
+    "html": false,
+    "json": false
+  },
+  "github.copilot.editor.enableAutoCompletions": false
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agrotech SYSTEM "agrotech.dtd">
+
+<agrotech nombre="AgroData Solutions" ciudad="Almería">
+
+    <cultivo id="cultivo_001">
+        <nombre>Tomate Raf</nombre>
+        <tipo>hortaliza</tipo>
+        <superficie>12.5</superficie>
+        <fechaSiembra>2026-02-15</fechaSiembra>
+        <estado>activo</estado>
+    </cultivo>
+
+    <cultivo id="cultivo_002">
+        <nombre>Pimiento California</nombre>
+        <tipo>hortaliza</tipo>
+        <superficie>8.2</superficie>
+        <fechaSiembra>2026-03-01</fechaSiembra>
+        <estado>activo</estado>
+    </cultivo>
+
+    <cultivo id="cultivo_003">
+        <nombre>Olivo Arbequina</nombre>
+        <tipo>frutal</tipo>
+        <superficie>20.0</superficie>
+        <fechaSiembra>2025-11-20</fechaSiembra>
+        <estado>mantenimiento</estado>
+    </cultivo>
+
+</agrotech>
