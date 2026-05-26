@@ -1,0 +1,39 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="agrotech">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cultivo" maxOccurs="unbounded" type="tipoCultivo"/>                
+            </xs:sequence>
+
+            <xs:attribute name="nombre" type="xs:string" use="required"/>
+            <xs:attribute name="ciudad" type="xs:string" use="required"/>
+
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="tipoCultivo">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="tipo" type="xs:string"/>
+            <xs:element name="superficie" type="xs:decimal"/>
+            <xs:element name="fechaSiembra" type="xs:date"/>
+            <xs:element name="estado" type="tipoEstado"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="validandoId" use="required"/>
+    </xs:complexType>
+
+    <xs:simpleType name="tipoEstado">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="mantenimiento"/>
+            <xs:enumeration value="activo"/>
+            <xs:enumeration value="pausa"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="validandoId">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="cultivo_[0-9]{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

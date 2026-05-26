@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE agrotech SYSTEM "agrotech.dtd">
+<?xml-model href="agrotech.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="agrotech.xsl" type="text/xsl"?>
+
 
 <agrotech nombre="AgroData Solutions" ciudad="Almería">
 
