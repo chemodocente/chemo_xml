@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cursosProgramados centro="AulaTIC Formacion">
+
+    <curso codigo="CU001">
+        <nombre>Bases de datos</nombre>
+        <familiaProfesional>Informatica</familiaProfesional>
+        <horas>300</horas>
+        <modalidad>Presencial</modalidad>
+        <fechaInicio>2026-05-18</fechaInicio>
+        <precio>150.75</precio>
+        <docente>
+            <nombre>Chemo Sanchez</nombre>
+            <especialidad>Tecnologia</especialidad>
+        </docente>
+    </curso>
+
+        <curso codigo="CU002">
+        <nombre>Cocina Creativa</nombre>
+        <familiaProfesional>Hosteleria</familiaProfesional>
+        <horas>100</horas>
+        <modalidad>Mixta</modalidad>
+        <fechaInicio>2026-09-15</fechaInicio>
+        <precio>699,99</precio>
+        <docente>
+            <nombre>Ferrán Adriá</nombre>
+            <especialidad>Cocina profesional</especialidad>
+        </docente>
+    </curso>
+
+        <curso codigo="CU003">
+        <nombre>Prevencios de Riesgos Laborales</nombre>
+        <familiaProfesional>Recursos Humanos</familiaProfesional>
+        <horas>40</horas>
+        <modalidad>Online</modalidad>
+        <fechaInicio>2026-05-28</fechaInicio>
+        <precio>12</precio>
+        <docente>
+            <nombre>Juan Perez</nombre>
+            <especialidad>Prevención</especialidad>
+        </docente>
+    </curso>
+
+</cursosProgramados>

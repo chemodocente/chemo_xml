@@ -1,0 +1,15 @@
+<!ELEMENT repositorio (proyecto+)>
+<!ATTLIST repositorio 
+nombre CDATA #REQUIRED
+version CDATA #REQUIRED>
+
+<!ELEMENT proyecto (titulo, categoria, responsable, fechaInicio, version, estado, ruta)>
+<!ATTLIST proyecto id ID #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT responsable (#PCDATA)>
+<!ELEMENT fechaInicio (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT ruta (#PCDATA)>
