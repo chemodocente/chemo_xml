@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<repositorio nombre="TecnoCampus Digital" version="1.0">
+    <proyecto id="P001">
+        <titulo>Curso básico de HTML y CSS</titulo>
+        <categoria>frontend</categoria>
+        <responsable>Departamento Web</responsable>
+        <fechaInicio>2026-06-01</fechaInicio>
+        <version>1.0</version>
+        <estado>activo</estado>
+        <ruta>proyectos/html_css/index.xml</ruta>
+    </proyecto>
+    <proyecto id="P002">
+        <titulo>Repositorio de ejercicios XML</titulo>
+        <categoria>xml</categoria>
+        <responsable>Docente UF2217</responsable>
+        <fechaInicio>2026-06-08</fechaInicio>
+        <version>0.8</version>
+        <estado>borrador</estado>
+        <ruta>proyectos/xml/ejercicios.xml</ruta>
+    </proyecto>
+    <proyecto id="P003">
+        <titulo>Materiales de WordPress</titulo>
+        <categoria>cms</categoria>
+        <responsable>Equipo de contenidos</responsable>
+        <fechaInicio>2026-06-15</fechaInicio>
+        <version>1.2</version>
+        <estado>revision</estado>
+        <ruta>proyectos/wordpress/materiales.xml</ruta>
+    </proyecto>
+    <proyecto id="P004">
+        <titulo>Banco de pruebas XSLT</titulo>
+        <categoria>xml</categoria>
+        <responsable>Departamento Web</responsable>
+        <fechaInicio>2026-06-20</fechaInicio>
+        <version>1.0</version>
+        <estado>activo</estado>
+        <ruta>proyectos/xslt/banco_pruebas.xml</ruta>
+    </proyecto>
+    <proyecto id="P005">
+        <titulo>Guía de accesibilidad web</titulo>
+        <categoria>frontend</categoria>
+        <responsable>Coordinación académica</responsable>
+        <fechaInicio>2026-06-25</fechaInicio>
+        <version>2.0</version>
+        <estado>archivado</estado>
+        <ruta>proyectos/accesibilidad/guia.xml</ruta>
+    </proyecto>
+</repositorio>
