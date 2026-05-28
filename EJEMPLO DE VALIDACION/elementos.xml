@@ -1,0 +1,79 @@
+
+
+
+
+<academia>
+
+
+    
+    <profesor>
+        <nombre>Matilde</nombre>
+        <apellidos>Gomez</apellidos>
+    </profesor>
+
+<!--
+    VALIDACION DTD: <!ELEMENT profesor (nombre, apellidos)> 
+    VALIDACION XSD: <xs:element name="profesor">
+                        <complexType>
+                            <xs:secuence>
+                             <xs:element name="nombre" type="xs:string"/>
+                             <xs:element name="apellidos" type="xs:string"/>
+                            </xs:sequence>
+                        </complexType>
+                    </xs:element> 
+
+-->
+
+    <profesora>aqui va el nombre completo de la profesora</profesora>
+
+    <!-- 
+    Validacion DTD: <!ELEMENT profesora (#PCDATA)>
+    Validacion XSD: <xs:element name="profesora" type="xs:string"/>
+    -->
+
+
+
+    <docente nombre="Matilde" Apellidos="Gomez"/>
+
+
+<!-- 
+Validacion DTD: 
+    <!ELEMENT docente (#PCDATA)>
+    <!ATTLIST docente
+        nombre CDATA #REQUIRED
+        Apellidos CDATA #REQUIRED
+    >
+
+
+Validacion XSD:
+<xs:element name="docente">
+    <xs:complexType>  
+        <xs:atribute name="nombre" type="xs:string" use="required"/>
+        <xs:atribute name="Apellidos" type="xs:string" use="required"/>
+  </xs:complexType>
+</xs:element>
+-->
+
+
+    <profesor identificador="Profe001">
+        <nombre>Matilde</nombre>
+        <apellidos>Gomez</apellidos>
+    </profesor>
+
+    <!-- 
+    Validacion XSD:
+<xs:element name="profesor">
+    <xs:complexType>  
+    <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="apellidos" type="xs:string"/>
+    </sequence>
+        <xs:atribute name="identificador" type="xs:string" use="required"/>
+  </xs:complexType>
+</xs:element>
+-->
+    -->
+
+
+
+</academia>
