@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cineverso SYSTEM "cineVerso.dtd">
+
+<cineverso complejo="Centro Ciudad">
+
+    <sala id="S01" tipo="Premium" capacidad="120">
+        <sonido>Dolby Atmos</sonido>
+        <pelicula codigo="EDS-99" edad="16" idioma="inglés" version="VOS">
+            <titulo>El Despertar del Silencio</titulo>
+            <duracion unidad="minutos">124</duracion>
+        </pelicula>
+    </sala>
+
+    <sala id="S02" tipo="Estándar" capacidad="250">
+        <sonido>Estéreo básico</sonido>
+        <pelicula codigo="AVT-22" edad="todos" idioma="español" version="doblada">
+            <titulo>Aventuras en el Tiempo</titulo>
+            <duracion unidad="minutos">90</duracion>
+        </pelicula>
+    </sala>
+
+    <sala id="S03" tipo="Premium" capacidad="100">
+        <sonido>Dolby Atmos</sonido>
+        <pelicula codigo="CLN-05" edad="18" idioma="inglés" version="VOS">
+            <titulo>Clásico Nocturno</titulo>
+            <duracion unidad="minutos">150</duracion>
+        </pelicula>
+    </sala>
+
+</cineverso>

@@ -1,0 +1,24 @@
+<!ELEMENT cineverso (sala+)>
+<!ATTLIST cineverso 
+        complejo CDATA #REQUIRED>
+
+<!ELEMENT sala (sonido, pelicula)>
+<!ATTLIST sala 
+        id ID #REQUIRED
+        tipo CDATA #REQUIRED
+        capacidad CDATA #REQUIRED>
+
+<!ELEMENT sonido (#PCDATA)>
+
+<!ELEMENT pelicula (titulo, duracion)>
+<!ATTLIST pelicula
+        codigo NMTOKEN #REQUIRED
+        edad CDATA #REQUIRED
+        idioma CDATA #REQUIRED
+        version (VOS | doblada) #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+
+<!ELEMENT duracion (#PCDATA)>
+<!ATTLIST duracion 
+        unidad NMTOKEN #FIXED "minutos">
