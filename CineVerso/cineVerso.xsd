@@ -1,0 +1,59 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cineverso">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="sala" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sonido" type="xs:string"/>
+                            <xs:element name="pelicula">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titulo" type="xs:string"></xs:element>
+                                        <xs:element name="duracion">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:integer">
+                                                         <xs:attribute name="unidad" type="xs:string"></xs:attribute>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                <xs:attribute name="codigo" type="tipoCodigo" use="required"/>
+                                <xs:attribute name="edad" type="xs:string" use="required"/>
+                                <xs:attribute name="idioma" type="xs:string" use="required"/>
+                                <xs:attribute name="version" type="tipoVersion" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="tipoIdSala" use="required"></xs:attribute>
+                        <xs:attribute name="tipo" type="xs:string" use="required"></xs:attribute>
+                        <xs:attribute name="capacidad" type="xs:integer" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="complejo" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="tipoIdSala">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="S[0-9]{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoCodigo">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="[A-Z]{3}-[0-9]{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoVersion">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="VOS"/>
+            <xs:enumeration value="doblada"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

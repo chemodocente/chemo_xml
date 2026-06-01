@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cursos>
+    <curso id="1">
+        <nombre>Desarrollo de un CMS</nombre>
+        <horas>50</horas>
+        <modalidad>Presencial</modalidad>
+    </curso>
+
+    <curso id="2">
+        <nombre>Lenguaje XML</nombre>
+        <horas>80</horas>
+        <modalidad>Online</modalidad>
+    </curso>
+</cursos>

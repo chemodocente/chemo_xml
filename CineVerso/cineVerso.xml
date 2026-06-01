@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cineverso SYSTEM "cineVerso.dtd">
+<?xml-model href="cineVerso.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="extracciondedatos.xsl" type="text/xsl"?>
+
 
 <cineverso complejo="Centro Ciudad">
 
@@ -23,7 +26,7 @@
         <sonido>Dolby Atmos</sonido>
         <pelicula codigo="CLN-05" edad="18" idioma="inglés" version="VOS">
             <titulo>Clásico Nocturno</titulo>
-            <duracion unidad="minutos">150</duracion>
+            <duracion unidad="minutos">187</duracion>
         </pelicula>
     </sala>
 

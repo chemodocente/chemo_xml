@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo getElementById</title>
+</head>
+<body>
+
+    <h1>Ejemplo sencillo de getElementById</h1>
+
+    <p id="mensaje">Este es el texto original.</p>
+
+    <button onclick="cambiarTexto()">Cambiar texto</button>
+
+    <script>
+        function cambiarTexto() {
+            document.getElementById("mensaje").textContent = "El texto ha cambiado con JavaScript.";
+        }
+    </script>
+
+</body>
+</html>

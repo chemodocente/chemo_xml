@@ -21,4 +21,4 @@
 
 <!ELEMENT duracion (#PCDATA)>
 <!ATTLIST duracion 
-        unidad NMTOKEN #FIXED "minutos">
+        unidad NMTOKEN #REQUIRED>

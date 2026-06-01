@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo DOM Node</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+            line-height: 1.5;
+        }
+
+        pre {
+            background: #f3f3f3;
+            padding: 1rem;
+            border-radius: 8px;
+            white-space: pre-wrap;
+        }
+
+        button {
+            padding: 0.7rem 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ejemplo de Node en DOM con XML</h1>
+
+    <p>
+        Este ejemplo carga un archivo XML y muestra cómo recorrer sus nodos usando
+        propiedades genéricas de la interfaz <strong>Node</strong>.
+    </p>
+
+    <button onclick="cargarXML()">Cargar y analizar XML</button>
+
+    <h2>Resultado:</h2>
+    <pre id="salida"></pre>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
