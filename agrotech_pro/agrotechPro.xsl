@@ -108,12 +108,140 @@
 
     <!-- EJERCICIO 5 -->
     <section id="E05">
+        <h3>Listado de Cultivos</h3>
+        <table>
+            <tr>
+                <th>Finca</th>
+                <th>Código</th>
+                <th>Cultivo</th>
+                <th>Tipo</th>
+                <th>Superficie</th>
+                <th>Temporada</th>
+                <th>Estado</th>
+                <th>Riesgo</th>
+            </tr>
+            <xsl:for-each select="agrotech/finca/cultivos/cultivo">
+                <tr>
+                    <td><xsl:value-of select="../../@nombre"/></td>
+                    <td><xsl:value-of select="@codigo"/></td>
+                    <td><xsl:value-of select="nombre"/></td>
+                    <td><xsl:value-of select="tipo"/></td>
+                    <td><xsl:value-of select="superficie"/></td>
+                    <td><xsl:value-of select="@temporada"/></td>
+                    <td><xsl:value-of select="estado"/></td>
+                    <td><xsl:value-of select="riesgo"/></td>
+                </tr>
+            </xsl:for-each>
+        </table>
+    </section>
 
+        <!-- EJERCICIO 6 -->
+    <section id="E06">
+        <h3>Listado de Cultivos con Estado</h3>
+        <table>
+            <tr>
+                <th>Finca</th>
+                <th>Código</th>
+                <th>Cultivo</th>
+                <th>Tipo</th>
+                <th>Superficie</th>
+                <th>Temporada</th>
+                <th>Estado</th>
+                <th>Riesgo</th>
+            </tr>
+            <xsl:for-each select="agrotech/finca/cultivos/cultivo">
+                <tr>
+                    <td><xsl:value-of select="../../@nombre"/></td>
+                    <td><xsl:value-of select="@codigo"/></td>
+                    <td><xsl:value-of select="nombre"/></td>
+                    <td><xsl:value-of select="tipo"/></td>
+                    <td><xsl:value-of select="superficie"/></td>
+                    <td><xsl:value-of select="@temporada"/></td>
+                    <!-- aqui elije que poner segun el "estado" del cultivo leido en el xml-->
+                    <xsl:choose>
+                        <!-- PRIMERA OPCION -->
+                        <xsl:when test="estado='activo'">
+                            <td>TERRERNO CULTIVADO</td>
+                        </xsl:when>
+
+                        <!-- SEGUNDA OPCION -->
+                        <xsl:when test="estado='mantenimiento'">
+                            <td>BARBECHO TÉCNICO</td>
+                        </xsl:when>
+
+                        <!-- TERCERA OPCION -->
+                        <xsl:when test="estado='finalizado'">
+                            <td>TERRERO LIBRE</td>
+                        </xsl:when>
+
+                        <!-- el When necesita Otherwise para cualquiero otro dato -->
+                         <xsl:otherwise>
+                            <td>REVISAR TERRENO</td>
+                         </xsl:otherwise>
+                    </xsl:choose>
+
+                    <td><xsl:value-of select="riesgo"/></td>
+                </tr>
+            </xsl:for-each>
+        </table>
+    </section>
+
+            <!-- EJERCICIO 7 -->
+    <section id="E07">
+        <h3>Listado de Cultivos con Riesgo</h3>
+        <table>
+            <tr>
+                <th>Finca</th>
+                <th>Código</th>
+                <th>Cultivo</th>
+                <th>Tipo</th>
+                <th>Superficie</th>
+                <th>Temporada</th>
+                <th>Estado</th>
+                <th>Riesgo</th>
+            </tr>
+            <xsl:for-each select="agrotech/finca/cultivos/cultivo">
+                <tr>
+                    <td><xsl:value-of select="../../@nombre"/></td>
+                    <td><xsl:value-of select="@codigo"/></td>
+                    <td><xsl:value-of select="nombre"/></td>
+                    <td><xsl:value-of select="tipo"/></td>
+                    <td><xsl:value-of select="superficie"/></td>
+                    <td><xsl:value-of select="@temporada"/></td>
+                    <td><xsl:value-of select="estado"/></td>
+                    <!-- aqui elije que poner segun el "estado" del cultivo leido en el xml-->
+                    <xsl:choose>
+                        <!-- PRIMERA OPCION -->
+                        <xsl:when test="riesgo='bajo'">
+                            <td style="color: green;">&#9660;</td>
+                        </xsl:when>
+
+                        <!-- SEGUNDA OPCION -->
+                        <xsl:when test="riesgo='medio'">
+                            <td  style="color: orange;">=</td>
+                        </xsl:when>
+
+                        <!-- TERCERA OPCION -->
+                        <xsl:when test="riesgo='alto'">
+                            <td  style="color: red;">&#9650;</td>
+                        </xsl:when>
+
+                        <!-- el When necesita Otherwise para cualquiero otro dato -->
+                         <xsl:otherwise>
+                            <td>Sin Datos</td>
+                         </xsl:otherwise>
+                    </xsl:choose>
+
+                    <td><xsl:value-of select="estado"/></td>
+                </tr>
+            </xsl:for-each>
+        </table>
     </section>
 
 
-    <!-- EJERCICIO 6 -->
-    <section id="E06">
+
+    <!-- EJERCICIO X -->
+    <section id="E0X">
 
     </section>
 </body>
