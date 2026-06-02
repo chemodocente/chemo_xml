@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="agrotechPro.xsl"?>
+
+<agrotech empresa="AgroData Solutions" ciudad="Almería" version="1.0">
+
+    <finca id="finca_001" nombre="Finca El Sol" zona="Poniente">
+        <responsable nombre="Ana López" telefono="600111222"/>
+        <cultivos>
+
+            <cultivo codigo="C001" temporada="primavera">
+                <nombre>Tomate Raf</nombre>
+                <tipo>hortaliza</tipo>
+                <superficie unidad="ha">12.5</superficie>
+                <estado>activo</estado>
+                <riesgo>bajo</riesgo>
+
+                <sensor id="S001" activo="true">
+                    <tipoSensor>humedad</tipoSensor>
+                    <lectura unidad="%">68</lectura>
+                    <fechaLectura>2026-05-25</fechaLectura>
+                </sensor>
+            </cultivo>
+
+            <cultivo codigo="C002" temporada="primavera">
+                <nombre>Pimiento California</nombre>
+                <tipo>hortaliza</tipo>
+                <superficie unidad="ha">8.2</superficie>
+                <estado>mantenimiento</estado>
+                <riesgo>medio</riesgo>
+
+                <sensor id="S002" activo="true">
+                    <tipoSensor>temperatura</tipoSensor>
+                    <lectura unidad="ºC">29.1</lectura>
+                    <fechaLectura>2026-05-25</fechaLectura>
+                </sensor>
+            </cultivo>
+
+        </cultivos>
+    </finca>
+
+    <finca id="finca_002" nombre="Finca Los Olivos" zona="Levante">
+        <responsable nombre="Juan Martínez" telefono="600333444"/>
+        <cultivos>
+
+            <cultivo codigo="C003" temporada="invierno">
+                <nombre>Olivo Arbequina</nombre>
+                <tipo>frutal</tipo>
+                <superficie unidad="ha">20.0</superficie>
+                <estado>activo</estado>
+                <riesgo>alto</riesgo>
+
+                <sensor id="S003" activo="false">
+                    <tipoSensor>conductividad</tipoSensor>
+                    <lectura unidad="mS/cm">1.8</lectura>
+                    <fechaLectura>2026-05-24</fechaLectura>
+                </sensor>
+            </cultivo>
+
+            <cultivo codigo="C004" temporada="otoño">
+                <nombre>Lechuga Batavia</nombre>
+                <tipo>hortaliza</tipo>
+                <superficie unidad="ha">5.7</superficie>
+                <estado>finalizado</estado>
+                <riesgo>bajo</riesgo>
+
+                <sensor id="S004" activo="true">
+                    <tipoSensor>humedad</tipoSensor>
+                    <lectura unidad="%">72</lectura>
+                    <fechaLectura>2026-05-20</fechaLectura>
+                </sensor>
+            </cultivo>
+
+        </cultivos>
+    </finca>
+
+    <finca id="finca_003" nombre="Finca Experimental Norte" zona="Interior">
+        <responsable nombre="Laura Sánchez" telefono="600555666"/>
+        <cultivos>
+
+            <cultivo codigo="C005" temporada="verano">
+                <nombre>Almendro Guara</nombre>
+                <tipo>frutal</tipo>
+                <superficie unidad="ha">15.4</superficie>
+                <estado>revision</estado>
+                <riesgo>critico</riesgo>
+
+                <sensor id="S005" activo="false">
+                    <tipoSensor>temperatura</tipoSensor>
+                    <lectura unidad="ºC">36.2</lectura>
+                    <fechaLectura>2026-05-26</fechaLectura>
+                </sensor>
+            </cultivo>
+
+        </cultivos>
+    </finca>
+
+</agrotech>
