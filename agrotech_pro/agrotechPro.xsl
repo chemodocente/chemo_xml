@@ -4,6 +4,7 @@
 <html>
 <head>
     <title>AgroTech</title>
+    
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,14 +23,21 @@
             padding: 4px 8px;
         }
     </style>
+    <!-- VOY A CREAR UN BOTON PARA QUEDARME SOLO CON LA ULTIMA SECCION -->
+     <script src="js/botonseccion.js"></script>
 </head>
 <body>
 
+      <header>
+    <h1>Practicas con Agrotech Pro</h1>
+    <button id="toggleSections">Ocultar secciones</button>
+  </header>
+
 <!-- EJERCICIO 1 -->
     <section id="E01">
-        <h1><xsl:value-of select="agrotech/@empresa"/></h1>
-        <h2>Ciudad: <xsl:value-of select="agrotech/@ciudad"/></h2>
-        <h2>Versión: <xsl:value-of select="agrotech/@version"/></h2>
+        <h2><xsl:value-of select="agrotech/@empresa"/></h2>
+        <h4>Ciudad: <xsl:value-of select="agrotech/@ciudad"/></h4>
+        <h4>Versión: <xsl:value-of select="agrotech/@version"/></h4>
     </section>
 
 <!-- EJERCICIO 2 -->
@@ -238,12 +246,122 @@
         </table>
     </section>
 
+        <!-- EJERCICIO 8 9 y 10 -->
+    <section id="E08">
+        <h3>Listado de sensores por cultivo</h3>
 
+        <table>
+            <tr>
+                <th>Cultivo</th>
+                <th>Sensor</th>
+                <th>Tipo Sensor</th>
+                <th>Lectura</th>
+                <th>Unidad</th>
+                <th>Fecha lectura</th>
+                <th>Activo</th>
+            </tr>
+            <xsl:for-each select="agrotech/finca/cultivos/cultivo">
+                <tr>
+                    <td><xsl:value-of select="nombre"/></td>
+                    <td><xsl:value-of select="sensor/@id"/></td>
+                    <td><xsl:value-of select="sensor/tipoSensor"/></td>
+                    <td><xsl:value-of select="sensor/lectura"/></td>
+                    <td><xsl:value-of select="sensor/lectura/@unidad"/></td>
+                    <td><xsl:value-of select="sensor/fechaLectura"/></td>
 
-    <!-- EJERCICIO X -->
-    <section id="E0X">
+                    <!-- No se rellena directo, primero comprueba el dato y luego coloca un dato interpretado. -->
+                    <xsl:choose>
+                        <xsl:when test="sensor/@activo='true'">
+                            <td style="background-color: green; color: white;">Sí</td>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <td style="background-color: red; color: white;">No</td>
+                        </xsl:otherwise>
+                    </xsl:choose>
+
+                
+                
+                </tr>
+            </xsl:for-each>
+        </table>
 
     </section>
+
+            <!-- EJERCICIO 11 -->
+    <section id="E11">
+        <h3>Listado de sensores por cultivo ORDENADO ALFABETICAMENTE</h3>
+
+        <table>
+            <tr>
+                <th>Cultivo</th>
+                <th>Sensor</th>
+                <th>Tipo Sensor</th>
+                <th>Lectura</th>
+                <th>Unidad</th>
+                <th>Fecha lectura</th>
+                <th>Activo</th>
+            </tr>
+            <xsl:for-each select="agrotech/finca/cultivos/cultivo">
+                <xsl:sort select="nombre"/>
+                <tr>
+                    <td><xsl:value-of select="nombre"/></td>
+                    <td><xsl:value-of select="sensor/@id"/></td>
+                    <td><xsl:value-of select="sensor/tipoSensor"/></td>
+                    <td><xsl:value-of select="sensor/lectura"/></td>
+                    <td><xsl:value-of select="sensor/lectura/@unidad"/></td>
+                    <td><xsl:value-of select="sensor/fechaLectura"/></td>
+
+                    <!-- No se rellena directo, primero comprueba el dato y luego coloca un dato interpretado. -->
+                    <xsl:choose>
+                        <xsl:when test="sensor/@activo='true'">
+                            <td style="background-color: green; color: white;">Sí</td>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <td style="background-color: red; color: white;">No</td>
+                        </xsl:otherwise>
+                    </xsl:choose>
+
+                
+                
+                </tr>
+            </xsl:for-each>
+        </table>
+
+    </section>
+
+    <!-- EJERCICIO 12 -->
+    <section id="E12">
+        <h3>Listado Ordenador por Superficie Mayor a Menor</h3>
+        <table>
+            <tr>
+                <th>Cultivo</th>
+                <th>Tipo</th>
+                <th>Superficie</th>
+                <th>Finca</th>
+            </tr>
+            <xsl:for-each select="agrotech/finca/cultivos/cultivo">
+                <xsl:sort select="superficie"  data-type="number" order="descending"/>
+                <tr>
+                    <td><xsl:value-of select="nombre"/></td>
+                    <td><xsl:value-of select="tipo"/></td>
+                    <td><xsl:value-of select="superficie"/></td>
+                    <td><xsl:value-of select="../../@nombre"/></td>
+                </tr>
+            </xsl:for-each>
+        </table>
+
+    </section>
+
+
+
+
+
+    <!-- EJERCICIO X 
+    <section id="E0X">
+
+    </section>-->
+
+
 </body>
 </html>
 
