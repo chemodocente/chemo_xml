@@ -352,7 +352,26 @@
 
     </section>
 
+    <!-- EJERCICIO 13 -->
+    <section id="E13">
+        <h3>Ejercicio de filtrado de datos</h3>
+        <table>
+            <tr>
+                <th>Cultivo</th>
+                <th>Finca</th>
+                <th>Riesgo</th>
+            </tr>
+            <xsl:for-each select="agrotech/finca/cultivos/cultivo[riesgo='alto']">
+                <tr>
+                <td><xsl:value-of select="nombre"/></td>
+                <td><xsl:value-of select="../../@nombre"/></td>
+                <td><xsl:value-of select="riesgo"/></td>
+                </tr>
+            </xsl:for-each>
 
+        </table>
+
+    </section>
 
 
 
