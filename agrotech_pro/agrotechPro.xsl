@@ -370,9 +370,62 @@
             </xsl:for-each>
 
         </table>
+    </section>
+
+        <!-- EJERCICIO 14 -->
+    <section id="E14">
+        <h3>Ejercicio de filtrado de datos</h3>
+        <table>
+            <tr>
+                <th>Cultivo</th>
+                <th>Finca</th>
+                <th>Estado</th>
+            </tr>
+            <xsl:for-each select="agrotech/finca/cultivos/cultivo[estado!='activo']">
+                <tr>
+                <td><xsl:value-of select="nombre"/></td>
+                <td><xsl:value-of select="../../@nombre"/></td>
+                <td><xsl:value-of select="estado"/></td>
+                </tr>
+            </xsl:for-each>
+
+        </table>
+    </section>
+
+       <!-- EJERCICIO 15X -->
+    <section id="E15">
+        <h3>Contar elementos de nuestro xml.</h3>
+        <p>Total de Fincas: <xsl:value-of select="count(agrotech/finca)"/></p>
+        <p>Total de Cultivos: <xsl:value-of select="count(agrotech/finca/cultivos/cultivo)"/></p>
+        <p>Sensores Activos: <xsl:value-of select="count(agrotech/finca/cultivos/cultivo/sensor[@activo = 'true'])"/></p>
+        <p>Sensores Desactivados:  <xsl:value-of select="count(agrotech/finca/cultivos/cultivo/sensor[@activo = 'false'])"/></p>
+    </section>
+
+    <!-- EJERCICIO 16 -->
+    <section id="E16">
+        <h3>Resumen de Fincas</h3>
+        <table>
+            <tr>
+                <th>Finca</th>
+                <th>Zona</th>
+                <th>Nº Cultivos</th>
+            </tr>
+            <xsl:for-each select="agrotech/finca">
+                <tr>
+                    <td><xsl:value-of select="@nombre"/></td>
+                    <td><xsl:value-of select="@zona"/></td>
+                    <td><xsl:value-of select="count(cultivos/cultivo)"/></td>
+                </tr>
+            </xsl:for-each>
+        </table>
 
     </section>
 
+    <!-- EJERCICIO 17 -->
+    <section id="E17">
+        <h3>Ejercicio con erroes</h3>
+        <p><xsl:value-of select="agrotech/finca/@zona"/></p>
+    </section>
 
 
     <!-- EJERCICIO X 
